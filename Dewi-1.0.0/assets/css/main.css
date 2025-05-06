@@ -1090,6 +1090,22 @@ section,
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
+
+.stats-item {
+  min-width: 300px; /* hoặc giá trị phù hợp hơn */
+}
+.stats-item span{
+  white-space: nowrap; /* Ngăn chữ xuống dòng */
+}
+
+.stats-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
 .stats .stats-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
