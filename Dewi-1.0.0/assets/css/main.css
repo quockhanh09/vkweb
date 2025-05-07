@@ -35,6 +35,33 @@
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #ff4a17; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --sm-black: #000;
+    --sm-pink: #FFE1E9;
+    --sm-dark-pink: #FFB7CA;
+    --sm-blue: #223055;
+    --sm-dark-gray: #899094;
+    --sm-gray: #B0B7C0;
+    --sm-light-gray: #f2f2f2;
+    --sm-white: #fff;
+    --sm-black-line: 1px solid var(--sm-white);
+    --sm-black-bold-line: 3px solid var(--sm-white);
+    --sm-padding-xl: 60px;
+    --sm-padding-l: 40px;
+    --sm-padding-m: 30px;
+    --sm-padding-s: 24px;
+    --ease-out: cubic-bezier(0.25, 1, 0.5, 1);
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --wp--preset--color--pale-pink: var(--sm-dark-pink);
+    --wp--preset--color--cyan-bluish-gray: var(--sm-dark-gray);
+    --sm-header-height: 120px;
+    --sm-shrunk-header-height: 100px;
+    --sm-container-width: 90%;
+    --page-padding: 156px;
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -1042,8 +1069,8 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about  {
-  background-color: #020000;
-  color: #c0c0c0; /* Màu bạc sáng */
+  background-color: #000000;
+  color: #000000; /* Màu bạc sáng */
    
 }
 
@@ -1951,3 +1978,226 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+/* */
+/* Container giữ nguyên */
+/* Tổng thể layout */
+.page-content {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.page-content div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.sm-section {
+  display: flex;
+  justify-content: flex-end;
+  padding: calc(var(--sm-padding-xl) * 1.5) var(--sm-padding-xl);
+}
+
+.sm-section-inner {
+  width: var(--sm-container-width);
+  margin: 0 !important;
+  position: relative;
+}
+
+.sm-section-inner > p {
+  font-size: 1.23em;
+  line-height: 1.6;
+}
+
+.sm-section-inner h2 {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.sm-section-inner > p + .sm-block,
+.sm-section-inner > .wp-block-heading + .sm-block {
+  margin-top: calc(var(--sm-padding-xl) * 1.3);
+}
+
+.sm-block:last-child {
+  border-bottom: var(--sm-black-line);
+}
+
+.sm-block {
+  border-top: var(--sm-black-bold-line);
+}
+
+/* Navigation */
+.sm-content.has-padding {
+  padding: var(--sm-padding-l) var(--sm-padding-s) var(--sm-padding-xl);
+}
+/* Timeline dòng */
+.sm-columns {
+  display: grid;
+  grid-template-columns: 1fr 50px 2fr; /* cột Năm | Chấm | Nội dung */
+  align-items: center;
+  position: relative;
+  padding-bottom: var(--sm-padding-xl); /* đảm bảo không lệch hàng do khoảng cách cột */
+}
+
+
+.sm-columns:first-of-type::after,
+.sm-columns:last-of-type::after {
+  display: none;
+}
+/* Năm */
+/* Năm bên trái */
+.sm-columns .column:first-child {
+  text-align: left;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.sm-columns .column:first-child h1 {
+  color: var(--sm-light-gray);
+  font-size: 150px;
+  font-weight: 600;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.sm-columns .right-column {
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+/* Hover số năm */
+.sm-columns:hover .column:first-child h1 {
+  color: var(--sm-dark-pink);
+}
+
+/* Chấm tròn ở giữa */
+/* Chấm ở giữa */
+.sm-columns .column:nth-child(2) {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+.sm-columns .column:nth-child(2)::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-color: var(--sm-gray);
+  border-radius: 50%;
+  z-index: 1;
+  transform: translateY(-70px);
+}
+
+/* Đường thẳng nối các chấm */
+.sm-columns::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* giữa cột thứ 2 */
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: rgb(146, 146, 146); /* đường màu cam */
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+/* Hover chấm */
+.sm-columns:hover .column:nth-child(2)::before {
+  background-color: var(--sm-dark-pink);
+}
+
+.right-column {
+  width: 400px;
+  transform: translate(600px, -105px);
+  will-change: transform;
+}
+
+/* Nội dung bên phải */
+.sm-columns .column:last-child {
+  padding-left: 20px;
+  padding-right: 40px;           /* tránh chữ chạm vạch cam */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;         /* giữ cột ở bên phải */
+  text-align: left;              /* căn trái nội dung trong cột */
+  max-width: 100%;               /* không cho vượt quá khung */
+  box-sizing: border-box;
+  
+}
+.sm-columns .column:last-child {
+  max-width: 900px; /* hoặc 80%, tùy theo giao diện */
+}
+
+.content-wrapper p{
+   max-width :1500px; 
+   word-break: break-word;     /* cho phép xuống dòng khi dài */
+   overflow-wrap: break-word;
+}
+.sm-columns .column:last-child .content-wrapper {
+  text-align: left;
+  align-items: flex-start;
+  max-width: calc(100% - 40px);/* Giới hạn chiều ngang để không tràn qua chấm */
+  word-wrap: break-word;
+}
+
+.sm-columns .column:last-child h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--sm-gray);
+  margin: 0 0 8px;
+  transition: color 0.3s ease;
+}
+
+.sm-columns .column:last-child p {
+  margin: 0 0 12px;
+  color: var(--sm-gray);
+  transition: color 0.3s ease;
+  
+}
+
+/* Hover nội dung */
+.sm-columns:hover .column:last-child h4,
+.sm-columns:hover .column:last-child p {
+  color: rgb(255, 255, 255);
+}
+
+.sm-columns {
+  justify-content: end; /* đẩy toàn bộ grid sang bên phải */
+}
+
+.dot-column {
+  position: relative;
+  z-index: 1; /* nằm trên đường cam */
+}
+
+.history-list {
+  position: relative;
+}
+
+.history-list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(48% + 20px); /* căn giữa cột chấm */
+  width: 2px;
+  background-color: rgb(160, 160, 160);
+  z-index: 0;
+}
+
