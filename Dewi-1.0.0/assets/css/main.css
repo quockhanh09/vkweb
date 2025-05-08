@@ -1164,7 +1164,7 @@ section,
 # Services Section
 --------------------------------------------------------------*/
 .services{
-  background-color: #020000;
+  background-color: #000000;
   color: #e5e6e7;
 }
 
@@ -1281,7 +1281,7 @@ section,
 # Features Section
 --------------------------------------------------------------*/
 .features{
-  background-color: #000910;
+  background-color: #4d4d4d;
   color: white;
 }
 
@@ -1926,14 +1926,16 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a.active {
+/* .service-details .services-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
-}
+} */
 
 .service-details .services-list a:hover {
   border-color: var(--accent-color);
+  color: var(--heading-color);
+  font-weight: 700;
 }
 
 .service-details .services-img {
@@ -2065,6 +2067,7 @@ section,
   font-weight: 600;
   margin: 0;
   transition: color 0.3s ease;
+  transform: translateX(90px);
 }
 
 .sm-columns .right-column {
