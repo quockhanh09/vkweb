@@ -37,7 +37,7 @@
   --nav-dropdown-hover-color: #ff4a17; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
   --sm-black: #000;
     --sm-pink: #FFE1E9;
-    --sm-dark-pink: #FFB7CA;
+    --sm-dark-pink: #ff7214;
     --sm-blue: #223055;
     --sm-dark-gray: #899094;
     --sm-gray: #B0B7C0;
@@ -45,7 +45,7 @@
     --sm-white: #fff;
     --sm-black-line: 1px solid var(--sm-white);
     --sm-black-bold-line: 3px solid var(--sm-white);
-    --sm-padding-xl: 60px;
+    --sm-padding-xl: 5px;
     --sm-padding-l: 40px;
     --sm-padding-m: 30px;
     --sm-padding-s: 24px;
@@ -884,7 +884,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 20px 0;
   scroll-margin-top: 90px;
   overflow: clip;
 }
@@ -1999,7 +1999,7 @@ section,
 .sm-section {
   display: flex;
   justify-content: flex-end;
-  padding: calc(var(--sm-padding-xl) * 1.5) var(--sm-padding-xl);
+  padding: 20px;
 }
 
 .sm-section-inner {
@@ -2198,9 +2198,24 @@ section,
   position: absolute;
   top: 0;
   bottom: 0;
-  left: calc(48% + 20px); /* căn giữa cột chấm */
+  left: calc(48.1% + 20px); /* căn giữa cột chấm */
   width: 2px;
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(99, 99, 99);
   z-index: 0;
 }
 
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+#btn-toggle {
+  transform: translate(40px, -600px); /* Dịch phải 40px, lên 20px */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Thêm hiệu ứng mượt */
+}
