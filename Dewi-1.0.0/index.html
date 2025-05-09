@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Vk Entertaiment</title>
+  <title>Vk ENTERTAINMENT</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,8 +36,51 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  
+  <style>
+    /* Ẩn mặc định */
+    #year-2020,
+    #year-2019,
+    #year-2018 {
+      opacity: 0;
+      transform: translateX(100%);
+      height: 0;
+      overflow: hidden;
+      transition: all 0.5s ease;
+    }
+  
+    /* Hiện ra */
+    .visible {
+      opacity: 1 !important;
+      transform: translateX(0) !important;
+      height: auto !important;
+      overflow: visible !important;
+      margin-top: 60px; /* tùy chỉnh nếu cần cách đều */
+    }
 
+    .sm-columns[data-year="2020"],
+  .sm-columns[data-year="2019"],
+  .sm-columns[data-year="2018"] {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.6s ease, opacity 0.6s ease; 
+  }
+
+  body.show-older .sm-columns[data-year="2020"],
+  body.show-older .sm-columns[data-year="2019"],
+  body.show-older .sm-columns[data-year="2018"] {
+    max-height: 500px; /* Giá trị đủ để hiển thị nội dung */
+    opacity: 1;
+  }
+
+  </style>
+</head>
+<script>
+  function toggleYears() {
+    document.body.classList.toggle('show-older');
+  }
+</script>
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -164,61 +207,90 @@
               <div class="wp-block-sm-container sm-block">
                 <div class="wp-block-sm-container sm-content history-list has-padding">
         
-                  <!-- Year 2023 -->
+                  <!-- 2023 -->
                   <div class="wp-block-sm-columns sm-columns" data-year="2023">
-                    <div class="wp-block-sm-column column">
-                      <h1 class="wp-block-heading">’23</h1>
+                    <div class="wp-block-sm-column column"><h1 class="wp-block-heading">’09</h1></div>
+                    <div class="wp-block-sm-column column dot-column"><div class="dot"></div></div>
+                    <div class="wp-block-sm-column column right-column">
+                      <div class="content-wrapper">
+                        <h4 class="wp-block-heading">VK Entertainment JSC được thành lập vào năm 2009, trước đây là VK Media. Hoạt động kinh doanh chính của chúng tôi là: Tổ chức sự kiện & chương trình, Quản lý, Sản xuất, Phân phối.</h4>
+                        <p style="font-size: 22px;"> </p>
+                      </div>
                     </div>
-                    <div class="wp-block-sm-column column dot-column">
-                      <div class="dot"></div>
+                  </div>
+        
+                  <!-- 2022 -->
+                  <div class="wp-block-sm-columns sm-columns" data-year="2022">
+                    <div class="wp-block-sm-column column"><h1 class="wp-block-heading">’12</h1></div>
+                    <div class="wp-block-sm-column column dot-column"><div class="dot"></div></div>
+                    <div class="wp-block-sm-column column right-column">
+                      <div class="content-wrapper">
+                        <h4 class="wp-block-heading">K-POP FESTIVAL 2012</h4>
+                        <p style="font-size: 22px;">Năm 2012, chúng tôi đã tổ chức LỄ HỘI K-POP tại Hà Nội, với sự tham gia của 78 Ca sĩ và Nhóm nhạc Hàn Quốc</p>
+                      </div>
                     </div>
+                  </div>
+        
+                  <!-- 2021 -->
+                  <div class="wp-block-sm-columns sm-columns" data-year="2021">
+                    <div class="wp-block-sm-column column"><h1 class="wp-block-heading">’14</h1></div>
+                    <div class="wp-block-sm-column column dot-column"><div class="dot"></div></div>
+                    <div class="wp-block-sm-column column right-column">
+                      <div class="content-wrapper">
+                        <h4 class="wp-block-heading">HECKOREA 2014</h4>
+                        <p style="font-size: 22px;"> Năm 2014, chúng tôi là đơn vị đồng tổ chức Lễ hội âm nhạc HECKOREA với sự tham gia của các nhóm nhạc Hàn Quốc nổi tiếng nhất 
+ </p>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <!-- 2020 -->
+                  <!-- <div class="wp-block-sm-columns sm-columns" data-year="2021" id="year-2020">
+                    <div class="wp-block-sm-column column"><h1 class="wp-block-heading">’20</h1></div>
+                    <div class="wp-block-sm-column column dot-column"><div class="dot"></div></div>
                     <div class="wp-block-sm-column column right-column">
                       <div class="content-wrapper">
                         <h4 class="wp-block-heading">음악퍼블리싱 사업 개시</h4>
                         <p style="font-size: 22px;"> ‘KREATION Music Rights’ 출범 </p>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
         
-                  <!-- Year 2022 -->
-                  <div class="wp-block-sm-columns sm-columns" data-year="2022">
-                    <div class="wp-block-sm-column column">
-                      <h1 class="wp-block-heading">’22</h1>
-                    </div>
-                    <div class="wp-block-sm-column column dot-column">
-                      <div class="dot"></div>
-                    </div>
+                  <!-- 2019 -->
+                  <!-- <div class="wp-block-sm-columns sm-columns" data-year="2021" id="year-2019">
+                    <div class="wp-block-sm-column column"><h1 class="wp-block-heading">’19</h1></div>
+                    <div class="wp-block-sm-column column dot-column"><div class="dot"></div></div>
                     <div class="wp-block-sm-column column right-column">
                       <div class="content-wrapper">
                         <h4 class="wp-block-heading">음악퍼블리싱 사업 개시</h4>
-                        <p style="font-size: 22px;"> ‘KREATION Music Rights’ 출범</p>
+                        <p style="font-size: 22px;"> ‘KREATION Music Rights’ 출범 </p>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
         
-                  <!-- Year 2021 -->
-                  <div class="wp-block-sm-columns sm-columns" data-year="2021">
-                    <div class="wp-block-sm-column column">
-                      <h1 class="wp-block-heading">’21</h1>
-                    </div>
-                    <div class="wp-block-sm-column column dot-column">
-                      <div class="dot"></div>
-                    </div>
+                  <!-- 2018 -->
+                  <!-- <div class="wp-block-sm-columns sm-columns" data-year="2021" id="year-2018">
+                    <div class="wp-block-sm-column column"><h1 class="wp-block-heading">’18</h1></div>
+                    <div class="wp-block-sm-column column dot-column"><div class="dot"></div></div>
                     <div class="wp-block-sm-column column right-column">
                       <div class="content-wrapper">
                         <h4 class="wp-block-heading">음악퍼블리싱 사업 개시</h4>
-                        <p style="font-size: 22px;"> ‘KREATION Music Rights’ 출범</p>
+                        <p style="font-size: 22px;"> ‘KREATION Music Rights’ 출범 </p>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
         
                 </div>
               </div>
             </div>
           </div>
         </div>
+      
         
-
+        <!-- <div class="btn-wrapper">
+          <button id="btn-toggle" onclick="toggleYears()">Xem thêm</button>
+        </div> -->
+        
       </div>
 
     </section><!-- /About Section -->
@@ -306,9 +378,9 @@
                   <i class="bi bi-activity"></i>
                 </div>
                 <a href="service-details.html" class="stretched-link">
-                  <h3>Event & Show</h3>
+                  <h3>Bảng Xếp Hạng Âm Nhạc Hàng Đầu Việt Nam</h3>
                 </a>
-                <p> VK Entertainment hợp tác với Hanteo Global cho ra mắt bảng xếp hạng âm nhạc hàng đầu Việt Nam. Đây là cột mốc quan trọng giúp nhạc Việt vươn tầm quốc tế.</p>
+                <p> VK Entertainment hợp tác với Hanteo Global cho ra mắt bảng xếp hạng âm nhạc hàng đầu Việt Nam</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -784,8 +856,8 @@
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/musicbank.webp" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>MusicBank</h4>
+                 
                   <a href="assets/img/portfolio/musicbank.webp" title="Product 1"
                     data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
@@ -799,8 +871,8 @@
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/kpop festival.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Kpop festival</h4>
+                  
                   <a href="assets/img/portfolio/kpop festival.jpg" title="Branding 1"
                     data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
@@ -814,8 +886,8 @@
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/dfesta.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <h4>Dfesta</h4>
+      
                   <a href="assets/img/portfolio/dfesta.jpg" title="Branding 1" data-gallery="portfolio-gallery-book"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -852,70 +924,9 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2"
-                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3"
-                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                      class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
           </div><!-- End Portfolio Container -->
-
         </div>
-
       </div>
-
     </section><!-- /Portfolio Section -->
 
     <!-- Team Section -->
@@ -1188,6 +1199,29 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!-- Nút -->
+<button id="btn-toggle" onclick="toggleYears()">Xem thêm</button>
+
+<!-- Script -->
+<script>
+  let showing = false;
+
+  function toggleYears() {
+    const ids = ['year-2020', 'year-2019', 'year-2018'];
+    ids.forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      if (showing) {
+        el.classList.remove('visible');
+      } else {
+        el.classList.add('visible');
+      }
+    });
+
+    document.getElementById('btn-toggle').textContent = showing ? 'Xem thêm' : 'Ẩn bớt';
+    showing = !showing;
+  }
+</script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
