@@ -1749,6 +1749,151 @@ section,
   margin: 0 2px;
 }
 
+.team .container {
+  width: 100%; /* Đặt độ rộng là 100% để linh hoạt trên mọi kích thước màn hình */
+  max-width: 1300px; /* Giới hạn độ rộng tối đa */
+}
+
+.team p {
+  color: #000910;
+}
+
+.team h2 {
+  color: #000910;
+}
+
+.team .member {
+  position: relative;
+}
+
+.team .member .pic {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.team .member .member-info {
+  background-color: var(--surface-color);
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  right: 20px;
+  padding: 20px 15px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.team .member h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: color-mix(in srgb, var(--default-color), transparent 60%);
+  bottom: 0;
+  left: 0;
+}
+
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.team .member .social {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.team .member .social a:hover {
+  color: var(--accent-color);
+}
+
+.team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+  .team .container {
+    padding: 0 15px; /* Thêm padding cho container */
+  }
+
+  .team .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .team .col-lg-3 {
+    flex: 1 1 48%; /* Chỉnh thành 2 cột trên màn hình lớn */
+  }
+}
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .team .member .pic {
+    position: relative; /* Đảm bảo ảnh giữ vị trí chính */
+  }
+
+  .team .member .member-info {
+    position: absolute;
+    bottom: 0; /* Đưa member-info lên sát dưới ảnh */
+    left: 0;   /* Căn lề trái của member-info vào lề trái ảnh */
+    right: 0;  /* Căn lề phải của member-info vào lề phải ảnh */
+    padding: 15px 10px;
+    z-index: 10; /* Đảm bảo member-info hiển thị trên ảnh */
+  }
+
+  .team .member h4 {
+    font-size: 14px;
+  }
+
+  .team .member span {
+    font-size: 12px;
+  }
+
+  .team .member .social a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .team .member .member-info {
+    padding: 10px 5px;
+  }
+
+  .team .member h4 {
+    font-size: 13px;
+  }
+
+  .team .member span {
+    font-size: 11px;
+  }
+
+  .team .member .social a {
+    font-size: 12px;
+  }
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -2098,8 +2243,8 @@ section,
 }
 .sm-columns .column:nth-child(2)::before {
   content: "";
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   background-color: var(--sm-gray);
   border-radius: 50%;
   z-index: 1;
@@ -2193,16 +2338,7 @@ section,
   position: relative;
 }
 
-.history-list::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: calc(48.1% + 20px); /* căn giữa cột chấm */
-  width: 2px;
-  background-color: rgb(99, 99, 99);
-  z-index: 0;
-}
+
 
 .btn-wrapper {
   display: flex;
@@ -2219,3 +2355,144 @@ section,
   cursor: pointer;
   transition: transform 0.3s ease; /* Thêm hiệu ứng mượt */
 }
+
+@media (max-width: 1200px) {
+  .sm-columns .column:first-child h1 {
+    font-size: 100px;
+    transform: translateX(40px);
+  }
+
+  .right-column {
+    transform: translate(200px, -80px);
+  }
+}
+
+@media (max-width: 992px) {
+  .sm-columns {
+    grid-template-columns: 1fr 30px 2fr;
+    padding-bottom: 40px;
+  }
+
+  .sm-columns .column:first-child h1 {
+    font-size: 80px;
+    transform: translateX(20px);
+  }
+
+  .right-column {
+    transform: translate(0px, 0px);
+    width: 100%;
+  }
+
+  .sm-columns .column:last-child {
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  .sm-columns .column:last-child .content-wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sm-columns {
+    grid-template-columns: 100%;
+    grid-row-gap: 20px;
+    justify-content: center;
+  }
+
+  .sm-columns .column:first-child,
+  .sm-columns .column:nth-child(2),
+  .sm-columns .column:last-child {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sm-columns .column:first-child h1 {
+    font-size: 60px;
+    transform: translateX(0);
+  }
+
+  .sm-columns .column:nth-child(2)::before {
+    transform: translateY(0);
+    margin: 20px auto;
+  }
+
+  .right-column {
+    width: 100%;
+    transform: none;
+  }
+
+  .sm-columns .column:last-child {
+    text-align: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .sm-columns .column:last-child .content-wrapper {
+    text-align: center;
+    align-items: center;
+  }
+
+  .sm-section {
+    justify-content: center;
+  }
+
+  .btn-wrapper {
+    justify-content: center;
+  }
+
+  #btn-toggle {
+    transform: none;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sm-columns .column:first-child h1 {
+    font-size: 48px;
+  }
+
+  .sm-columns .column:last-child h4 {
+    font-size: 16px;
+  }
+
+  .sm-columns .column:last-child p {
+    font-size: 14px;
+  }
+
+  .content-wrapper p {
+    font-size: 14px;
+  }
+}
+
+
+.history-list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(48.1% + 20px); /* Mặc định cho desktop */
+  width: 2px;
+  background-color: rgb(99, 99, 99);
+  z-index: 0;
+}
+
+@media (max-width: 1200px) {
+  .history-list::before {
+    left: calc(45%); /* dịch sang trái khi thu nhỏ */
+  }
+}
+
+@media (max-width: 992px) {
+  .history-list::before {
+    left: 40%; /* dịch tiếp sang trái cho tablet */
+  }
+}
+
+@media (max-width: 768px) {
+  .history-list::before {
+    left: 50%; /* cho điện thoại: căn giữa */
+  }
+}
+
