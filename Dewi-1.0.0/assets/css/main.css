@@ -1460,7 +1460,7 @@ section,
 
   .features .nav-link i {
     font-size: 24px;
-    padding-right: 8px;
+    padding: 8px;
   }
 
   .features .nav-link h4 {
@@ -1727,6 +1727,9 @@ section,
 .portfolio{
   background-color: #000910;
   color: white;
+   padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 
@@ -1761,6 +1764,9 @@ section,
 .portfolio .portfolio-filters li:last-child {
   margin-right: 0;
 }
+
+
+
 
 @media (max-width: 575px) {
   .portfolio .portfolio-filters li {
@@ -1844,8 +1850,8 @@ section,
 --------------------------------------------------------------*/
 
 .team .container{
-
   width: 1300px;
+  
 }
 
 .team p{
@@ -2007,7 +2013,7 @@ section,
   .team .container {
     padding: 0 15px; /* Thêm padding cho container */
   }
-
+  
   .team .row {
     display: flex;
     flex-wrap: wrap;
@@ -2018,8 +2024,19 @@ section,
     flex: 1 1 48%; /* Chỉnh thành 2 cột trên màn hình lớn */
   }
 }
+
+
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
+
+.team .member .pic {
+  overflow: hidden;
+  margin-bottom: 10px!important;
+}
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .team .member .pic {
     position: relative; /* Đảm bảo ảnh giữ vị trí chính */
   }
@@ -2063,9 +2080,6 @@ section,
     font-size: 12px;
   }
 }
-
-
-
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -2298,11 +2312,7 @@ section,
 .starter-section {
   /* Add your styles here */
 }
-
-
-/* */
-/* Container giữ nguyên */
-/* Tổng thể layout */
+/*  */
 .page-content {
   width: 100%;
   max-width: 1800px;
@@ -2541,42 +2551,68 @@ section,
   z-index: 0;
 }
 
-
 @media (max-width: 768px) {
   .sm-columns {
-    grid-template-columns: auto auto 1fr;  /* Năm | Chấm | Nội dung */
-    gap: 8px;                              /* Khoảng cách giữa các cột */
+    grid-template-columns: 1fr 20px 2fr;  /* Năm | Chấm | Nội dung */
+    gap: 8px;
     padding: 16px 8px;
+    align-items: flex-start;
   }
 
-  /* Số năm bên trái */
+  /* Số năm */
+  .sm-columns .column:first-child {
+    justify-content: flex-start;
+  }
+
   .sm-columns .column:first-child h1 {
     font-size: 36px;
     transform: none;
   }
 
-  /* Chấm tròn giữa */
+  /* Chấm giữa */
   .sm-columns .column:nth-child(2)::before {
-    width: 8px;
-    height: 8px;
-    transform: translateY(-20px);
+    width: 20px;
+    height: 20px;
+    transform: translateY(-30px);
   }
 
   /* Cột nội dung bên phải */
-  .sm-columns .column:last-child h4,
-  .sm-columns .column:last-child p {
-    font-size: 10px;
-  }
-
   .sm-columns .column:last-child {
     padding: 0;
+    text-align: left;
+    align-items: flex-start;
+  }
+.sm-columns::after {
+    left: calc(33.3% + 10px); /* điều chỉnh giữa cột thứ 2 */
+  }
+  .sm-columns .column:last-child h4,
+  .sm-columns .column:last-child p {
+    font-size: 12px; /* Sửa font chữ thành 18px */
   }
 
   .right-column {
     transform: none;
     width: auto;
-    align-items: flex-start;
     text-align: left;
+    align-items: flex-start;
+    transform: translate(160px, -90px)
+  }
+
+.sm-columns .column:last-child .content-wrapper {
+    text-align: left;
+    align-items: flex-start;
+    max-width: calc(80% - 40px);
+    word-wrap: break-word;
+}
+  /* Đường timeline chính (nếu dùng .history-list::before) */
+  .history-list::before {
+    left: calc(33% + 54px);
+  }
+
+  .sm-columns .column:last-child h4 {
+    font-size: 18px;     /* nhỏ hơn chút cho mobile */
+    font-weight: 600;
   }
 }
+
 
