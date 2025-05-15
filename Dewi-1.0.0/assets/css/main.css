@@ -2310,7 +2310,9 @@ section,
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
-  /* Add your styles here */
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 /*  */
 .page-content {
@@ -2615,3 +2617,8 @@ section,
   }
 }
 
+#starter-body{
+  display: flex;
+      justify-content: center; 
+      padding: 20px;
+}
