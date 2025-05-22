@@ -37,45 +37,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
-  <style>
-    /* Ẩn mặc định */
-    #year-2020,
-    #year-2019,
-    #year-2018 {
-      opacity: 0;
-      transform: translateX(100%);
-      height: 0;
-      overflow: hidden;
-      transition: all 0.5s ease;
-    }
 
-    /* Hiện ra */
-    .visible {
-      opacity: 1 !important;
-      transform: translateX(0) !important;
-      height: auto !important;
-      overflow: visible !important;
-      margin-top: 60px;
-      /* tùy chỉnh nếu cần cách đều */
-    }
-
-    .sm-columns[data-year="2020"],
-    .sm-columns[data-year="2019"],
-    .sm-columns[data-year="2018"] {
-      overflow: hidden;
-      max-height: 0;
-      opacity: 0;
-      transition: max-height 0.6s ease, opacity 0.6s ease;
-    }
-
-    body.show-older .sm-columns[data-year="2020"],
-    body.show-older .sm-columns[data-year="2019"],
-    body.show-older .sm-columns[data-year="2018"] {
-      max-height: 500px;
-      /* Giá trị đủ để hiển thị nội dung */
-      opacity: 1;
-    }
-  </style>
 </head>
 <script>
   function toggleYears() {
@@ -105,7 +67,7 @@
           <li><a href="#hero" class="active">Trang Chủ</a></li>
           <li><a href="#about">Về Chúng Tôi</a></li>
           <li><a href="#services">Tin tức</a></li>
-          <li><a href="#services">Dịch Vụ</a></li>
+          <li><a href="#features">Dịch Vụ</a></li>
           <li><a href="#portfolio">Dự Án</a></li>
           <li><a href="#team">Đối Tác</a></li>
           <li><a href="#contact">Liên Hệ</a></li>
