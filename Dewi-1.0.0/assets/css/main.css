@@ -1117,48 +1117,58 @@ section,
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Khoảng cách giữa các ô */
+}
 
 .stats-item {
-  min-width: 300px; /* hoặc giá trị phù hợp hơn */
-}
-.stats-item span{
-  white-space: nowrap; /* Ngăn chữ xuống dòng */
+  display: flex;
+  align-items: center;
+  min-width: 310px;
+  background-color: var(--surface-color);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1 1 300px; /* Cho phép co giãn responsive */
 }
 
 .stats-item img {
   width: 100px;
   height: 100px;
   border-radius: 5px;
-  margin-right: 20px;
+  margin-right: 30px;
   flex-shrink: 0;
 }
 
-.stats .stats-item {
-  background-color: var(--surface-color);
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-}
-
-.stats .stats-item i {
+.stats-item i {
   color: var(--accent-color);
-  font-size: 42px;
-  line-height: 0;
-  margin-right: 20px;
+  font-size: 40px;
+  line-height: 1;
+  margin-right: 30px;
+  flex-shrink: 0;
 }
 
-.stats .stats-item span {
-  color: var(--heading-color);
-  font-size: 36px;
-  display: block;
+.stats-item span {
+color: var(--heading-color);
+  font-size: 24px;           /* Giảm font để tránh tràn */
   font-weight: 600;
+  display: block;
+  white-space: nowrap;       /* Không xuống dòng */
+  overflow: hidden;          /* Ẩn phần tràn */
+  text-overflow: ellipsis;   /* Hiển thị "..." nếu quá dài */
+  max-width: 100%;           
 }
 
-.stats .stats-item p {
+.stats-item p {
   padding: 0;
   margin: 0;
   font-family: var(--heading-font);
   font-size: 16px;
+  color: var(--text-color);
 }
+
 @media (max-width: 768px) {
   .stats {
     padding: 0 15px; /* Căn lề vào 2 bên */
@@ -1865,6 +1875,44 @@ section,
   position: relative;
 }
 
+#partner-slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  /* gap: 20px; */
+  padding-bottom: 20px;
+
+}
+#partner-slider .col-lg-3 {
+  flex: 0 0 25%; /* 100% / 4 */
+  max-width: 25%;
+}
+#partner-slider::-webkit-scrollbar {
+  height: 8px;
+}
+
+#partner-slider::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+/* Đảm bảo mỗi item có đúng 1/4 chiều ngang để hiển thị 4 cái */
+#partner-slider > .col-lg-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  scroll-snap-align: start;
+}
+
+#partner-prev{
+transform: translate(-150% ,200px);
+}
+
+#partner-next{
+  transform: translate(150%, 190px);
+}
+
 .team .member .pic {
   overflow: hidden;
   margin-bottom: 50px;
@@ -2361,6 +2409,7 @@ section,
 
 .sm-block {
   border-top: var(--sm-black-bold-line);
+  width: 1280px
 }
 
 /* Navigation */
@@ -2370,10 +2419,11 @@ section,
 /* Timeline dòng */
 .sm-columns {
   display: grid;
+  margin-bottom: -80px;
   grid-template-columns: 1fr 50px 2fr; /* cột Năm | Chấm | Nội dung */
   align-items: center;
   position: relative;
-  padding-bottom: var(--sm-padding-xl); /* đảm bảo không lệch hàng do khoảng cách cột */
+  
 }
 
 
@@ -2388,7 +2438,7 @@ section,
   padding-left: 10px;
   display: flex;
   align-items: center;
-  height: 100%;
+
 }
 
 .sm-columns .column:first-child h1 {
@@ -2397,7 +2447,8 @@ section,
   font-weight: 600;
   margin: 0;
   transition: color 0.3s ease;
-  transform: translateX(90px);
+  transform: translate(100px, -10px);
+  
 }
 
 .sm-columns .right-column {
@@ -2433,7 +2484,7 @@ section,
   background-color: var(--sm-gray);
   border-radius: 50%;
   z-index: 1;
-  transform: translateY(-70px);
+  transform: translate(-43px, -100px);
 }
 
 /* Đường thẳng nối các chấm */
@@ -2455,16 +2506,14 @@ section,
 }
 
 .right-column {
-  width: 400px;
-  transform: translate(600px, -105px);
+  width: 700px;
+  transform: translate(600px, -180px);
   will-change: transform;
 }
 
 /* Nội dung bên phải */
 .sm-columns .column:last-child {
-  padding-left: 20px;
-  padding-right: 40px;           /* tránh chữ chạm vạch cam */
-  display: flex;
+        
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;         /* giữ cột ở bên phải */
@@ -2486,7 +2535,7 @@ section,
 .sm-columns .column:last-child .content-wrapper {
   text-align: left;
   align-items: flex-start;
-  max-width: calc(100% - 40px);/* Giới hạn chiều ngang để không tràn qua chấm */
+  max-width: calc(100% - -200px);/* Giới hạn chiều ngang để không tràn qua chấm */
   word-wrap: break-word;
 }
 
@@ -2524,30 +2573,12 @@ section,
   position: relative;
 }
 
-
-
-.btn-wrapper {
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px 0;
-}
-
-#btn-toggle {
-  transform: translate(40px, -600px); /* Dịch phải 40px, lên 20px */
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  transition: transform 0.3s ease; /* Thêm hiệu ứng mượt */
-}
-
 .history-list::before {
   content: "";
   position: absolute;
   top: 0;
   bottom: 0;
-  left: calc(48.1% + 20px); /* Mặc định cho desktop */
+  left: calc(48.1% + -20px); /* Mặc định cho desktop */
   width: 2px;
   background-color: rgb(99, 99, 99);
   z-index: 0;
@@ -2622,3 +2653,5 @@ section,
       justify-content: center; 
       padding: 20px;
 }
+
+
