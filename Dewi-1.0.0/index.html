@@ -1153,36 +1153,7 @@
   </script>
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
-    const translations = {
-      vi: {
-        "hero.title": "VK ENTERTAINMENT",
-        "hero.subtitle": "Thế giới số tuyệt vời của bạn",
-        // thêm các key khác...
-      },
-      en: {
-        "hero.title": "VK ENTERTAINMENT",
-        "hero.subtitle": "Your Amazing World of Digital Play",
-        // thêm các key khác...
-      },
-      ko: {
-        "hero.title": "VK 엔터테인먼트",
-        "hero.subtitle": "당신의 멋진 디지털 세상",
-        // thêm các key khác...
 
-      }
-    };
-
-    function changeLanguage(lang) {
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        el.innerHTML = translations[lang][key] || el.innerHTML;
-      });
-    }
-
-    // Gọi mặc định tiếng Việt
-    window.onload = () => changeLanguage('vi');
-  </script>
 
 </body>
 
