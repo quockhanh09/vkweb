@@ -67,7 +67,13 @@
           <li><a href="#portfolio">Dự Án</a></li>
           <li><a href="#team">Đối Tác</a></li>
           <li><a href="#contact">Liên Hệ</a></li>
-          
+          <li>
+            <div id="language-switcher" style="margin-left: 20px;">
+              <button onclick="changeLanguage('vi')">VI</button>
+              <button onclick="changeLanguage('en')">EN</button>
+              <button onclick="changeLanguage('ko')">KO</button>
+            </div>
+          </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -1142,7 +1148,52 @@
 
 
   <!-- Script -->
- 
+  <script>
+    const slider = document.getElementById('partner-slider');
+    const nextBtn = document.getElementById('partner-next');
+    const prevBtn = document.getElementById('partner-prev');
+    const itemWidth = slider.querySelector('.col-lg-3').offsetWidth;
+
+    nextBtn.addEventListener('click', () => {
+      slider.scrollLeft += itemWidth * 4;
+    });
+
+    prevBtn.addEventListener('click', () => {
+      slider.scrollLeft -= itemWidth * 4;
+    });
+  </script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    const translations = {
+      vi: {
+        "hero.title": "VK ENTERTAINMENT",
+        "hero.subtitle": "Thế giới số tuyệt vời của bạn",
+        // thêm các key khác...
+      },
+      en: {
+        "hero.title": "VK ENTERTAINMENT",
+        "hero.subtitle": "Your Amazing World of Digital Play",
+        // thêm các key khác...
+      },
+      ko: {
+        "hero.title": "VK 엔터테인먼트",
+        "hero.subtitle": "당신의 멋진 디지털 세상",
+        // thêm các key khác...
+
+      }
+    };
+
+    function changeLanguage(lang) {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        el.innerHTML = translations[lang][key] || el.innerHTML;
+      });
+    }
+
+    // Gọi mặc định tiếng Việt
+    window.onload = () => changeLanguage('vi');
+  </script>
 
 </body>
 
