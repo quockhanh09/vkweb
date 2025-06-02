@@ -2585,6 +2585,11 @@ transform: translate(-150% ,200px);
 }
 
 @media (max-width: 768px) {
+
+  .sm-block {
+   
+    width: 900px;
+   }
   .sm-columns {
     grid-template-columns: 1fr 20px 2fr;  /* Năm | Chấm | Nội dung */
     gap: 8px;
@@ -2596,17 +2601,21 @@ transform: translate(-150% ,200px);
   .sm-columns .column:first-child {
     justify-content: flex-start;
   }
+  .sm-section-inner h2{
+      font-size: 20px;
 
+  }
   .sm-columns .column:first-child h1 {
     font-size: 36px;
     transform: none;
+    transform: translate(-30px, -15px);
   }
 
   /* Chấm giữa */
   .sm-columns .column:nth-child(2)::before {
     width: 20px;
     height: 20px;
-    transform: translateY(-30px);
+    transform: translate(-368px, -40px);
   }
 
   /* Cột nội dung bên phải */
@@ -2615,9 +2624,11 @@ transform: translate(-150% ,200px);
     text-align: left;
     align-items: flex-start;
   }
-.sm-columns::after {
+
+  .sm-columns::after {
     left: calc(33.3% + 10px); /* điều chỉnh giữa cột thứ 2 */
   }
+
   .sm-columns .column:last-child h4,
   .sm-columns .column:last-child p {
     font-size: 12px; /* Sửa font chữ thành 18px */
@@ -2628,7 +2639,7 @@ transform: translate(-150% ,200px);
     width: auto;
     text-align: left;
     align-items: flex-start;
-    transform: translate(160px, -90px)
+    transform: translate(80px, -80px)
   }
 
 .sm-columns .column:last-child .content-wrapper {
@@ -2640,8 +2651,10 @@ transform: translate(-150% ,200px);
   /* Đường timeline chính (nếu dùng .history-list::before) */
   .history-list::before {
     left: calc(33% + 54px);
+    transform: translateX(-270px);
   }
 
+  
   .sm-columns .column:last-child h4 {
     font-size: 18px;     /* nhỏ hơn chút cho mobile */
     font-weight: 600;
@@ -2655,3 +2668,19 @@ transform: translate(-150% ,200px);
 }
 
 
+.scroll-list {
+  max-height: calc(3.5em * 5); /* Hiển thị 5 dòng, mỗi dòng cao ~1.2em */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-list a {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  line-height: 1.2em;
+  text-decoration: none;
+  font-size: 1em;
+}
