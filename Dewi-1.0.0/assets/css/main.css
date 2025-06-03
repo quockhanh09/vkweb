@@ -2056,10 +2056,10 @@ transform: translate(-150% ,200px);
   margin: 0 2px;
 }
 
-/* Media Queries for responsiveness */
+
 @media (max-width: 1200px) {
   .team .container {
-    padding: 0 15px; /* Thêm padding cho container */
+    padding: 0 15px; 
   }
   
   .team .row {
@@ -2069,13 +2069,23 @@ transform: translate(-150% ,200px);
   }
 
   .team .col-lg-3 {
-    flex: 1 1 48%; /* Chỉnh thành 2 cột trên màn hình lớn */
+    flex: 1 1 48%; 
+  }
+}
+@media (max-width: 992px) {
+  #partner-slider .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 }
 
-
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
+
+  #partner-slider .col-lg-3 {
+    flex: 0 0 47%;
+    max-width: 47%;
+  }
 
 .team .member .pic {
   overflow: hidden;
@@ -2086,16 +2096,20 @@ transform: translate(-150% ,200px);
     padding-right: 15px;
   }
   .team .member .pic {
-    position: relative; /* Đảm bảo ảnh giữ vị trí chính */
+    position: relative; 
   }
 
+
+    .team .member .pic img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
   .team .member .member-info {
-    position: absolute;
-    bottom: 0; /* Đưa member-info lên sát dưới ảnh */
-    left: 0;   /* Căn lề trái của member-info vào lề trái ảnh */
-    right: 0;  /* Căn lề phải của member-info vào lề phải ảnh */
+    position: static;
+    background-color: var(--surface-color);
     padding: 15px 10px;
-    z-index: 10; /* Đảm bảo member-info hiển thị trên ảnh */
+    box-shadow: none;
   }
 
   .team .member h4 {
@@ -2110,6 +2124,12 @@ transform: translate(-150% ,200px);
     font-size: 14px;
   }
 }
+
+  #partner-prev,
+  #partner-next {
+    transform: translate(0, 0);
+    font-size: 14px;
+  }
 
 @media (max-width: 480px) {
   .team .member .member-info {
@@ -2608,7 +2628,7 @@ transform: translate(-150% ,200px);
   .sm-columns .column:first-child h1 {
     font-size: 36px;
     transform: none;
-    transform: translate(-30px, -15px);
+    transform: translate(-30px, -14px);
   }
 
   /* Chấm giữa */
@@ -2645,7 +2665,7 @@ transform: translate(-150% ,200px);
 .sm-columns .column:last-child .content-wrapper {
     text-align: left;
     align-items: flex-start;
-    max-width: calc(80% - 40px);
+    max-width: calc(80% - 400px);
     word-wrap: break-word;
 }
   /* Đường timeline chính (nếu dùng .history-list::before) */
