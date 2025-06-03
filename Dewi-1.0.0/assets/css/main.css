@@ -2665,7 +2665,7 @@ transform: translate(-150% ,200px);
 .sm-columns .column:last-child .content-wrapper {
     text-align: left;
     align-items: flex-start;
-    max-width: calc(80% - 400px);
+    max-width: calc(80% - 455px);
     word-wrap: break-word;
 }
   /* Đường timeline chính (nếu dùng .history-list::before) */
