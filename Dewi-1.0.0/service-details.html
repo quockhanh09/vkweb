@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +25,8 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -38,44 +41,56 @@
 
 <body class="service-details-page">
 
-   <header id="header" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <!-- 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-      
+    
         <h1 class="sitename">Dewi</h1>
       </a> -->
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <img src="assets/img/logo trắng viền đen trong suốt.png" alt="Dewi Logo" style="height: 300px;">
       </a>
-    <nav id="navmenu" class="navmenu">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Trang Chủ</a></li>
-          <li><a href="index.html#about">Về Chúng Tôi</a></li>
-          <li><a href="index.html#services">Tin tức</a></li>
-          <li><a href="index.html#features">Dịch Vụ</a></li>
-          <li><a href="index.html#portfolio">Dự Án</a></li>
-          <li><a href="index.html#team">Đối Tác</a></li>
-          <li><a href="index.html#contact">Liên Hệ</a></li>
-
+          <li><a href="#hero" class="active" data-i18n="nav.hero">Trang Chủ</a></li>
+          <li><a href="#about" class="active" data-i18n="nav.about">Về Chúng Tôi</a></li>
+          <li><a href="#services" data-i18n="nav.services">Tin tức</a></li>
+          <li><a href="#features" data-i18n="nav.features">Dịch Vụ</a></li>
+          <li><a href="#portfolio" data-i18n="nav.portfolio">Dự Án</a></li>
+          <li><a href="#team" data-i18n="nav.team">Đối Tác</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Liên Hệ</a></li>
+          <li>
+            <div id="language-switcher">
+              <button class="flag-icon-btn" onclick="changeLanguage('vi')">
+                <span class="fi fi-vn"></span>
+              </button>
+              <button class="flag-icon-btn" onclick="changeLanguage('en')">
+                <span class="fi fi-gb"></span>
+              </button>
+              <button class="flag-icon-btn" onclick="changeLanguage('ko')">
+                <span class="fi fi-kr"></span>
+              </button>
+            </div>
+          </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-
     </div>
   </header>
+
 
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
+    <div class="page-title dark-background" data-aos="fade"
+      style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
-        <h1>Tin Tức</h1>
+        <h1 data-i18n="nav.services">Tin Tức</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">VK ENTERTAINMENT</a></li>
             <li class="current">Music</li>
           </ol>
         </nav>
@@ -90,8 +105,8 @@
         <div class="row gy-4">
 
           <div class="col-lg-4 scroll-list" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list  ">
-              <a href="#" >IP 1</a>
+            <!-- <div class="services-list  ">
+              <a href="#">IP 1</a>
               <a href="#">IP 2</a>
               <a href="#">IP 3</a>
               <a href="#">IP 4</a>
@@ -101,27 +116,82 @@
               <a href="#">IP 8</a>
               <a href="#">IP 9</a>
               <a href="#">IP 10</a>
-            </div>
+            </div> -->
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-           
-            <h3>VTV Chart chính thức ra mắt: Sân chơi mới cho âm nhạc Việt Nam thăng hoa</h3>
-            <p>
-              Hà Nội, ngày 5 tháng 5 năm 2025 - Hôm nay, cộng đồng yêu nhạc Việt Nam đón nhận một tin vui đầy hứa hẹn: sự ra mắt chính thức của Vibe Việt Chart, bảng xếp hạng âm nhạc toàn diện và hiện đại, hứa hẹn mang đến một góc nhìn mới mẻ và khách quan về thị trường âm nhạc trong nước. Sự kiện này đánh dấu một bước tiến quan trọng trong việc ghi nhân và tôn vinh những sản phẩm âm nhạc chất lượng, đồng thời tạo ra một sân chơi cạnh tranh lành mạnh cho các nghệ sĩ
+
+            <h2 data-i18n="veve-service">VEVE: Đánh dấu khoảnh khắc, kết nối thần tượng</h2>
+            <p data-i18n="veve-title-1">
+              <b>VEVE</b> – dịch vụ âm nhạc số, nơi hội tụ đam mê và kết nối cộng đồng. VEVE là sản phẩm tâm huyết từ sự
+              hợp tác chiến lược giữa<b>VK Entertainment JSC</b> và <b>Hanteo Global</b>, công ty hàng đầu thế giới về bảng xếp hạng
+              âm nhạc. Chúng tôi tự hào mang đến một hệ sinh thái giải trí toàn diện, được thiết kế đặc biệt để đáp ứng
+              mọi nhu cầu của những người yêu âm nhạc, đặc biệt là cộng đồng K-Pop và V-Pop.
+            </p>
+            <p data-i18n="veve-title-2">
+
+              <b>VEVE dự kiến ra mắt vào tháng 9 năm 2025</b> trên cả ứng dụng di động và nền tảng website, hứa hẹn thay
+              đổi cách bạn trải nghiệm âm nhạc.
+
+            </p>
+            <img src="assets/img/ticketing.jpg" alt="" class="img-fluid services-img">
+            <h3 data-i18n="veve-title-h3">Sứ mệnh của chúng tôi</h3>
+            <p data-i18n="veve-title-3">
+              Tại VEVE, sứ mệnh của chúng tôi là tạo ra một không gian âm nhạc đa chiều, nơi người dùng không chỉ được
+              thưởng thức những giai điệu yêu thích mà còn được kết nối, chia sẻ và tương tác trực tiếp với thế giới âm
+              nhạc. Chúng tôi cam kết mang đến sự minh bạch, chất lượng và trải nghiệm vượt trội cho mọi người dùng.
+            </p>
+            <h2 data-i18n="veve-title-h2">Những tính năng nổi bật của VEVE </h2>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-4"><b>Bảng xếp hạng âm nhạc chuẩn quốc tế:</b> Với sự hợp tác
+                  cùng Hanteo Global, VEVE cung cấp các bảng xếp hạng âm nhạc chuyên nghiệp, chính xác và cập nhật liên
+                  tục, giúp bạn dễ dàng theo dõi thành tích của nghệ sĩ yêu thích.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-5"><b>Cộng đồng fan sôi động:</b> VEVE là ngôi nhà chung cho các
+                  fan hâm mộ. Tại đây, bạn có thể tham gia vào các nhóm, diễn đàn, thảo luận, chia sẻ thông tin và kết
+                  nối với những người cùng đam mê</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-6"><b>Kênh bán vé sự kiện độc quyền:</b> Dễ dàng mua vé các sự
+                  kiện âm nhạc, concert K-Pop và V-Pop lớn nhỏ ngay trên nền tảng của chúng tôi, đảm bảo bạn không bỏ lỡ
+                  bất kỳ buổi biểu diễn nào.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-7"><b>Hệ thống bình chọn (voting) minh bạch:</b> Trực tiếp đóng
+                  góp vào thành công của thần tượng bằng cách bình chọn một cách công bằng và minh bạch trong các sự
+                  kiện âm nhạc quan trọng.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-8"><b>Mua sắm sản phẩm (Goods):</b> Người dùng có thể mua hàng
+                  hóa nghệ sĩ chính thức thông qua kênh bán hàng tích hợp trong ứng dụng</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-9"><b>Truy cập nội dung âm nhạc:</b> VeVe liên kết với các nền
+                  tảng nhạc số để dẫn người dùng đến bài hát, MV, nội dung có bản quyền.</span></li>
+            </ul>
+
+            <h2 data-i18n="veve-title-h2-1">Cam kết của chúng tôi</h2>
+            <p data-i18n="veve-title-10">
+              VEVE được xây dựng dựa trên sự thấu hiểu sâu sắc về nhu cầu của cộng đồng yêu nhạc. Chúng tôi không ngừng
+              cải tiến và phát triển để mang đến một nền tảng ổn định, an toàn và thân thiện với người dùng. Với sự kết
+              hợp giữa kinh nghiệm của VK Entertainment và uy tín toàn cầu của Hanteo Global, chúng tôi tự tin VEVE sẽ
+              trở thành điểm đến âm nhạc không thể thiếu của bạn.
+            </p>
+            <p data-i18n="veve-title-11">
+              Hãy cùng chúng tôi viết nên những câu chuyện âm nhạc mới. <b>VEVE – Nơi âm nhạc cất cánh!</b>
+            </p>
+            <h2 data-i18n="veve-title-h2-2">Kết nối với VEVE </h2>
+
+            <p data-i18n="veve-title-12">
+              Bạn đã sẵn sàng cùng VEVE khám phá thế giới âm nhạc? Hãy theo dõi chúng tôi để không bỏ lỡ những thông tin
+              cập nhật mới nhất, các sự kiện độc quyền và nhiều điều bất ngờ khác!
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Tin tức liên quan 1</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Tin tức liên quan 2</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Tin tức liên quan 3</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-13"><b>Website chính thức:</b>[Link website chính thức của VEVE]
+                  (Sẽ cập nhật khi ra mắt)</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-14"><b>Tải ứng dụng VEVE:</b> Sắp có mặt trên [Google Play] và
+                  [App Store] vào tháng 9/2025</span></li>
+              <strong data-i18n="veve-title-15">Theo dõi chúng tôi trên mạng xã hội:</strong>
+              <ul style="padding-left:45px;">
+                <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-16"><b>Facebook:</b> [Link Facebook của VEVE]</span></li>
+                <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-17"><b>Instagram:</b> [Link Instagram của VEVE]</span></li>
+                <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-18"><b>X:</b>[Link X của VEVE]</span></li>
+                <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-19"><b>YouTube:</b>[Link YouTube của VEVE]</span></li>
+              </ul>
+              </span></li>
+
             </ul>
-            <p>
-              Trong bối cảnh thị trường âm nhạc số ngày càng phát triển mạnh mẽ, việc xuất hiện một bàng xếp hạng uy tín và minh bạch như Vibe Việt Chart được kỳ vọng sẽ trở thành một nguồn tham khảo đáng tin cây cho khán giả và giới chuyên môn. Vibe Việt Chart không chỉ đơn thuần tổng hợp số liệu nghe trực tuyến từ các nền tảng âm nhạc phổ biến mà còn kết hợp các yếu tố khác như lượt xem MV, tương tác trên mạng xã hội và đánh giá từ hội đồng chuyên môn. Cách tiếp cận đa chiều này hứa hẹn sẽ mang đến một bức tranh toàn diện và chính xác hơn về độ phố biến và sức ảnh hưởng thực tế của mỗi ca khúc.
-Sự ra đời của Vibe Việt Chart cũng nhận được sự hưởng ứng tích cực từ nhiều nghệ sĩ và nhà sản xuất âm nhạc. Ca sĩ trẻ đầy triển vọng. AMEE, bày tỏ: “Em rất vui khi Việt Nam có thêm một bảng xếp hạng âm nhạc uy tín như Vibe Việt Chart. Đây sẽ là động lực lớn để các nghệ sĩ trẻ như em không ngừng cố gắng và mang đến những sản phẩm chất lượng hơn cho khán giả
-            </p>
-            <p>
-              Trong bối cảnh thị trường âm nhạc số ngày càng phát triển mạnh mẽ, việc xuất hiện một bàng xếp hạng uy tín và minh bạch như Vibe Việt Chart được kỳ vọng sẽ trở thành một nguồn tham khảo đáng tin cây cho khán giả và giới chuyên môn. Vibe Việt Chart không chỉ đơn thuần tổng hợp số liệu nghe trực tuyến từ các nền tảng âm nhạc phổ biến mà còn kết hợp các yếu tố khác như lượt xem MV, tương tác trên mạng xã hội và đánh giá từ hội đồng chuyên môn. Cách tiếp cận đa chiều này hứa hẹn sẽ mang đến một bức tranh toàn diện và chính xác hơn về độ phố biến và sức ảnh hưởng thực tế của mỗi ca khúc.
-              Sự ra đời của Vibe Việt Chart cũng nhận được sự hưởng ứng tích cực từ nhiều nghệ sĩ và nhà sản xuất âm nhạc. Ca sĩ trẻ đầy triển vọng. AMEE, bày tỏ: “Em rất vui khi Việt Nam có thêm một bảng xếp hạng âm nhạc uy tín như Vibe Việt Chart. Đây sẽ là động lực lớn để các nghệ sĩ trẻ như em không ngừng cố gắng và mang đến những sản phẩm chất lượng hơn cho khán giả            </p>
           </div>
 
         </div>
@@ -154,30 +224,31 @@ Sự ra đời của Vibe Việt Chart cũng nhận được sự hưởng ứng
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Đường dẫn nhanh</h4>
+          <h4 data-i18n="footer-link">Đường dẫn nhanh</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Trang Chủ</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Giới thiệu </a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch Vụ</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="starter-page.html">Điều Khoản</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Quyền Riêng Tư</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-1">Trang Chủ</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-2">Giới thiệu </a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-3">Dịch Vụ</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="starter-page.html" data-i18n="footer-link-4">Điều Khoản</a>
+            </li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-5">Quyền Riêng Tư</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Dịch Vụ</h4>
+          <h4 data-i18n="footer-link-3">Dịch Vụ</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Game Net</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Even & Show</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Quảng Cáo số</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Super Platform</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Nôi Dung</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-6">Game Net</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-7">Even & Show</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-8">Quảng Cáo số</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-9">Super Platform</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-10">Nôi Dung</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Đăng ký thành viên của VK Entertainment​</h4>
-          <p>Đăng ký để trở thành thành viên!</p>
+          <h4 data-i18n="footer-link-11">Đăng ký thành viên của VK Entertainment​</h4>
+          <p data-i18n="footer-link-12">Đăng ký để trở thành thành viên!</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Đăng Ký "></div>
             <div class="loading">Loading</div>
@@ -204,7 +275,8 @@ Sự ra đời của Vibe Việt Chart cũng nhận được sự hưởng ứng
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -221,6 +293,7 @@ Sự ra đời của Vibe Việt Chart cũng nhận được sự hưởng ứng
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/lang.js"></script>
 
 </body>
 
