@@ -2463,7 +2463,6 @@ transform: translate(-150% ,200px);
   
 }
 
-
 .sm-columns:first-of-type::after,
 .sm-columns:last-of-type::after {
   display: none;
@@ -2647,78 +2646,64 @@ transform: translate(-150% ,200px);
 
 @media (max-width: 768px) {
 
-  .sm-block {
-   
-    width: 900px;
-   }
   .sm-columns {
-    grid-template-columns: 1fr 20px 2fr;  /* Năm | Chấm | Nội dung */
-    gap: 8px;
-    padding: 16px 8px;
-    align-items: flex-start;
-  }
-
-  /* Số năm */
-  .sm-columns .column:first-child {
-    justify-content: flex-start;
-  }
-  .sm-section-inner h2{
-      font-size: 20px;
-
-  }
-  .sm-columns .column:first-child h1 {
-    font-size: 36px;
-    transform: none;
-    transform: translate(-30px, -14px);
-  }
-
-  /* Chấm giữa */
-  .sm-columns .column:nth-child(2)::before {
-    width: 20px;
-    height: 20px;
-    transform: translate(-368px, -40px);
-  }
-
-  /* Cột nội dung bên phải */
-  .sm-columns .column:last-child {
-    padding: 0;
-    text-align: left;
-    align-items: flex-start;
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 40px 20px;
+    position: relative;
   }
 
   .sm-columns::after {
-    left: calc(33.3% + 10px); /* điều chỉnh giữa cột thứ 2 */
+    left: 24px;
+    transform: none;
   }
 
-  .sm-columns .column:last-child h4,
-  .sm-columns .column:last-child p {
-    font-size: 12px; /* Sửa font chữ thành 18px */
+  .sm-columns .column:first-child {
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+
+  .sm-columns .column:first-child h1 {
+    font-size: 60px;
+    transform: none;
+    margin-bottom: 10px;
+  }
+
+  .sm-columns .column:nth-child(2)::before {
+    width: 20px;
+    height: 20px;
+    transform: translate(0, -10px);
+    margin-bottom: 10px;
   }
 
   .right-column {
-    transform: none;
     width: auto;
-    text-align: left;
-    align-items: flex-start;
-    transform: translate(80px, -80px)
+    transform: none;
   }
 
-.sm-columns .column:last-child .content-wrapper {
+  .sm-columns .column:last-child {
     text-align: left;
     align-items: flex-start;
-    max-width: calc(80% - 455px);
-    word-wrap: break-word;
-}
-  /* Đường timeline chính (nếu dùng .history-list::before) */
-  .history-list::before {
-    left: calc(33% + 54px);
-    transform: translateX(-270px);
+    padding-left: 36px;
+    margin-bottom: 40px;
   }
 
-  
   .sm-columns .column:last-child h4 {
-    font-size: 18px;     /* nhỏ hơn chút cho mobile */
+    font-size: 18px;
     font-weight: 600;
+  }
+
+  .sm-columns .column:last-child p {
+    font-size: 16px;
+  }
+
+  .sm-columns .column:last-child .content-wrapper {
+    max-width: 100%;
+    padding-left: 10px;
+  }
+
+  .history-list::before {
+    left: 24px;
   }
 }
 
