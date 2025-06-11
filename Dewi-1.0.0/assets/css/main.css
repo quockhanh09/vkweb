@@ -2786,3 +2786,39 @@ transform: translate(-150% ,200px);
   align-items: center;
   margin-left: 20px;
 }
+
+.hover-image-wt {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.hover-image-wt img {
+  position: absolute;
+  top: 50%;       /* đặt ảnh cách từ trên 50% khung */
+  left: 50%;      /* đặt ảnh cách từ trái 50% khung */
+  width: 70%;     /* ảnh nhỏ 70% kích thước khung */
+  height: 70%;
+  object-fit: contain;
+  transform: translate(-50%, -50%); /* dịch ảnh lên chính giữa */
+  transition: opacity 0.3s ease;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+
+.hover-image-wt .hover-img {
+  opacity: 0;
+}
+
+.service-item:hover .hover-image-wt .hover-img {
+  opacity: 1;
+}
+
+.service-item:hover .hover-image-wt .default-img {
+  opacity: 0;
+}
+
+
+
