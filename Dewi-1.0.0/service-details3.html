@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +25,8 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -42,39 +45,48 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <!-- 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-      
+    
         <h1 class="sitename">Dewi</h1>
       </a> -->
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <img src="assets/img/logo trắng viền đen trong suốt.png" alt="Dewi Logo" style="height: 300px;">
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Trang Chủ</a></li>
-          <li><a href="index.html#about">Về Chúng Tôi</a></li>
-          <li><a href="index.html#services">Tin tức</a></li>
-          <li><a href="index.html#features">Dịch Vụ</a></li>
-          <li><a href="index.html#portfolio">Dự Án</a></li>
-          <li><a href="index.html#team">Đối Tác</a></li>
-          <li><a href="index.html#contact">Liên Hệ</a></li>
-
+          <li><a href="index.html#hero"  data-i18n="nav.hero">Trang Chủ</a></li>
+          <li><a href="index.html#about" data-i18n="nav.about">Về Chúng Tôi</a></li>
+          <li><a href="index.html#services" class="active" data-i18n="nav.services">Tin tức</a></li>
+          <li><a href="index.html#features" data-i18n="nav.features">Dịch Vụ</a></li>
+          <li><a href="index.html#portfolio" data-i18n="nav.portfolio">Dự Án</a></li>
+          <li><a href="index.html#team" data-i18n="nav.team">Đối Tác</a></li>
+          <li><a href="index.html#contact" data-i18n="nav.contact">Liên Hệ</a></li>
+          <li>
+            <div id="language-switcher">
+              <button class="flag-icon-btn" onclick="changeLanguage('vi')">
+                <span class="fi fi-vn"></span>
+              </button>
+              <button class="flag-icon-btn" onclick="changeLanguage('en')">
+                <span class="fi fi-gb"></span>
+              </button>
+              <button class="flag-icon-btn" onclick="changeLanguage('ko')">
+                <span class="fi fi-kr"></span>
+              </button>
+            </div>
+          </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-
     </div>
   </header>
-
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
+    <div class="page-title dark-background" data-aos="fade"
+      style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
-        <h1>Cổng Ticketing Lễ Hội Âm Nhạc Hàn-Việt</h1>
-        <p>Chính thức mở công mua vé lễ hội âm nhạc Hàn - Việt!</p>
+        <h1>VK Webtoon</h1>
+        <p>Thế giới truyện tranh kỹ thuật số</p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -93,7 +105,7 @@
 
           <div class="col-lg-4 scroll-list" data-aos="fade-up" data-aos-delay="100">
             <div class="services-list">
-              <a href="#" >IP 1</a>
+              <a href="#">IP 1</a>
               <a href="#">IP 2</a>
               <a href="#">IP 3</a>
               <a href="#">IP 4</a>
@@ -112,21 +124,43 @@
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/ticketing.jpg" alt="" class="img-fluid services-img">
-            <h3>Hàn - Việt Harmony Fest 2025": Mở cổng bán vé, sẵn sàng cho đêm nhạc giao thoa văn hóa đỉnh cao!</h3>
-            <p>
-              Giá về dự kiến dao động từ 1.200.000 VNĐ đến 6.000.000 VNĐ, tùy thuộc vào hạng vẻ và thời điểm mua Ban tổ chức khuyến cáo khán giả nên nhanh chóng truy cập các kênh bản về chính thức ngay khi công mà để có cơ hội sở hữu những vị trí tốt nhất</h3>
-            <p>
-              Hà Nội, ngày 5 tháng 5 năm 2025 - Sự kiện âm nhạc được mong chờ nhất năm. "Hàn - Việt Harmony Fest 2025", chính thức công bố mờ cổng bán vé vào lúc 20:00 (giờ Việt Nam) ngày 12 tháng 5 năm 2025. Lễ hội âm nhạc đặc biệt này hứa hẹn mang đến một đêm hòa nhạc đỉnh cao, nơi âm nhạc và văn hóa của Hàn Quốc và Việt Nam thăng hoa với sự góp mặt của những nghệ sĩ hàng đầu từ cả hai quốc gia.
-              <li><i class="bi bi-check-circle"></i> <span>Tin tức liên quan 1</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Tin tức liên quan 2</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Tin tức liên quan 3</span></li>
-            </ul>
-            <p>
-              Ban tổ chức đã chuẩn bị nhiều hạng vẻ khác nhau, đáp ứng nhu cầu đa dạng của khán giả, từ những người muốn cháy hết mình trong không gian âm nhạc sôi động đến những ai mong muốn thường thức nghệ thuật một cách thoải mái và trọn vẹn. Các hạng vé bao gồm: Standing Zone (Khu vực đứng): Dành cho những khán giả muốn hòa mình vào không khí cuồng nhiệt cùng âm nhạc. GA (General Admission - Vẻ phó thông). Về ngồi ở vị trí tiêu chuẩn, mang đến trải nghiệm âm nhạc tuyệt vời. VIP Zone (Khu vực VIP): Vẻ ngồi ở vị trí đẹp với tầm nhìn gần sân khấu, kèm theo một số ưu đãi đặc biệt. VVIP Lounge (Phòng chờ VVIP): Trải nghiệm đẳng cấp với chỗ ngồi sang trọng, dịch vụ cao cấp và cơ hội giao lưu (meet & greet giới hạn) với một số nghệ sĩ
+
+            <h2 data-i18n="webtoon-title-h2">VK Webtoon: Thế giới truyện tranh kỹ thuật số</h2>
+            <p data-i18n="webtoon-title-1">
+              Bạn là một fan của những câu chuyện lôi cuốn, những nét vẽ sống động và thế giới đa sắc màu?
+              <b>VK Entertainment</b>  tự hào giới thiệu <b>VK Webtoon</b>, dịch vụ truyện tranh kỹ thuật số mới của chúng tôi, hứa hẹn
+              mang đến những trải nghiệm đọc truyện tuyệt vời nhất. Dự kiến ra mắt vào cuối năm nay, VK Webtoon sẽ là
+              cánh cửa mở ra thế giới webtoon Hàn Quốc bản quyền, nơi bạn có thể thưởng thức những tác phẩm nổi tiếng và
+              được yêu thích nhất.
             </p>
-            <p>
-              Giá về dự kiến dao động từ 1.200.000 VNĐ đến 6.000.000 VNĐ, tùy thuộc vào hạng vẻ và thời điểm mua Ban tổ chức khuyến cáo khán giả nên nhanh chóng truy cập các kênh bản về chính thức ngay khi công mà để có cơ hội sở hữu những vị trí tốt nhất</p>
+            <img src="assets/img/WEBTOON1.png" alt="" class="img-fluid services-img">
+            <h3 data-i18n="webtoon-title-h3">Kho tàng Webtoon Hàn Quốc Bản quyền</h3>
+            <p data-i18n="webtoon-title-2">
+              Với VK Webtoon, chúng tôi cam kết mang đến cho người đọc Việt Nam những tác phẩm chất lượng cao nhất. Ngay
+              trong giai đoạn đầu ra mắt, chúng tôi sẽ giới thiệu<b>từ 30 đến 50 tác phẩm webtoon bản quyền từ Hàn Quốc</b> .
+              Đây là những bộ truyện đã và đang làm mưa làm gió trên các nền tảng quốc tế, được đông đảo độc giả yêu
+              thích bởi cốt truyện hấp dẫn, nhân vật độc đáo và phong cách vẽ ấn tượng.
+            </p>
+            <strong data-i18n="webtoon-title-3">Bạn sẽ có cơ hội đắm chìm vào:</strong>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="webtoon-title-4"><b>Những câu chuyện tình yêu lãng mạn:</b>Từ những mối tình
+                  học đường trong sáng đến những câu chuyện tình yêu vượt mọi rào cản.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="webtoon-title-5"><b>Hành trình phiêu lưu kỳ ảo:</b>Khám phá những thế giới
+                  phép thuật, những cuộc chiến đấu cam go và những bí ẩn cần được vén màn.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="webtoon-title-6"><b>Những lát cắt cuộc sống chân thực</b>Đôi khi là những câu
+                  chuyện hài hước, cảm động về cuộc sống thường ngày.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="webtoon-title-7"><b>Các thể loại đa dạng khác:</b>Hành động, trinh thám, giả
+                  tưởng, BL, GL, v.v., đảm bảo đáp ứng mọi sở thích của bạn.</span></li>
+
+            </ul>
+            <p data-i18n="webtoon-title-8">
+              VK Webtoon không chỉ là nơi để bạn đọc truyện, mà còn là cầu nối để bạn tiếp cận với văn hóa và xu hướng
+              truyện tranh Hàn Quốc. Chúng tôi không ngừng nỗ lực để cập nhật những tác phẩm mới nhất, hot nhất, đảm bảo
+              bạn luôn là người đón đầu những trào lưu webtoon đỉnh cao.
+            </p>
+            <p data-i18n="webtoon-title-9">
+              Hãy cùng chờ đón<b>VK Webtoon</b>  ra mắt vào cuối năm nay để bắt đầu hành trình khám phá thế giới truyện tranh
+              kỹ thuật số đầy màu sắc và hấp dẫn</p>
           </div>
 
         </div>
@@ -159,30 +193,31 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Đường dẫn nhanh</h4>
+          <h4 data-i18n="footer-link">Đường dẫn nhanh</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Trang Chủ</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Giới thiệu </a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch Vụ</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="starter-page.html">Điều Khoản</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Quyền Riêng Tư</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-1">Trang Chủ</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-2">Giới thiệu </a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-3">Dịch Vụ</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="starter-page.html" data-i18n="footer-link-4">Điều Khoản</a>
+            </li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-5">Quyền Riêng Tư</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Dịch Vụ</h4>
+          <h4 data-i18n="footer-link-3">Dịch Vụ</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Game Net</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Even & Show</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Quảng Cáo số</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Super Platform</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Nôi Dung</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-6">Game Net</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-7">Even & Show</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-8">Quảng Cáo số</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-9">Super Platform</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-10">Nôi Dung</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Đăng ký thành viên của VK Entertainment​</h4>
-          <p>Đăng ký để trở thành thành viên!</p>
+          <h4 data-i18n="footer-link-11">Đăng ký thành viên của VK Entertainment​</h4>
+          <p data-i18n="footer-link-12">Đăng ký để trở thành thành viên!</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Đăng Ký "></div>
             <div class="loading">Loading</div>
@@ -209,7 +244,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -226,7 +262,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/lang.js"></script>
 </body>
 
 </html>
