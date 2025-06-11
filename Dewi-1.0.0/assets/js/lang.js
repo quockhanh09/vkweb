@@ -122,7 +122,7 @@ const translations = {
     // "GUARDIANS-title-15": "<b>Theo dõi chúng tôi trên mạng xã hội:</b>",
     "GUARDIANS-title-16": "<b>Facebook:</b> [Link Facebook THE GUARDIANS]",
     "GUARDIANS-title-17": "<b>YouTube:</b> [Link YouTube THE GUARDIANS]",
-    "GUARDIANS-title-18": "<b>Discord:</b>[Link Discord THE GUARDIANS] (Tham gia cộng đồng Vệ Thần ngay!)",
+    "GUARDIANS-title-18": "<b>Discord:</b> [Link Discord THE GUARDIANS] (Tham gia cộng đồng Vệ Thần ngay!)",
     /*Zero*/
     "Zero-title-h3": "Zero Break: Bắn Súng Đỉnh Cao – Nơi Kỹ Năng Quyết Định Sinh Tử Trên Di Động!",
     "Zero-title-h3-1": "Kết nối với Zero Break",
