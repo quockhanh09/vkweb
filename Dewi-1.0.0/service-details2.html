@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +25,8 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
@@ -42,42 +45,52 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <!-- 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-      
+    
         <h1 class="sitename">Dewi</h1>
       </a> -->
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <img src="assets/img/logo trắng viền đen trong suốt.png" alt="Dewi Logo" style="height: 300px;">
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Trang Chủ</a></li>
-          <li><a href="index.html#about">Về Chúng Tôi</a></li>
-          <li><a href="index.html#services">Tin tức</a></li>
-          <li><a href="index.html#features">Dịch Vụ</a></li>
-          <li><a href="index.html#portfolio">Dự Án</a></li>
-          <li><a href="index.html#team">Đối Tác</a></li>
-          <li><a href="index.html#contact">Liên Hệ</a></li>
-
+          <li><a href="index.html#hero"  data-i18n="nav.hero">Trang Chủ</a></li>
+          <li><a href="index.html#about" data-i18n="nav.about">Về Chúng Tôi</a></li>
+          <li><a href="index.html#services" class="active" data-i18n="nav.services">Tin tức</a></li>
+          <li><a href="index.html#features" data-i18n="nav.features">Dịch Vụ</a></li>
+          <li><a href="index.html#portfolio" data-i18n="nav.portfolio">Dự Án</a></li>
+          <li><a href="index.html#team" data-i18n="nav.team">Đối Tác</a></li>
+          <li><a href="index.html#contact" data-i18n="nav.contact">Liên Hệ</a></li>
+          <li>
+            <div id="language-switcher">
+              <button class="flag-icon-btn" onclick="changeLanguage('vi')">
+                <span class="fi fi-vn"></span>
+              </button>
+              <button class="flag-icon-btn" onclick="changeLanguage('en')">
+                <span class="fi fi-gb"></span>
+              </button>
+              <button class="flag-icon-btn" onclick="changeLanguage('ko')">
+                <span class="fi fi-kr"></span>
+              </button>
+            </div>
+          </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-
     </div>
   </header>
 
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
+    <div class="page-title dark-background" data-aos="fade"
+      style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
-        <h1>Vệ Thần: The Guardians Thế Giới Game Nhập Vai Hoàn Toàn Mới</h1>
-        <p>"Vệ Thần" chính thức ra mắt: Hòa mình vào thế giới thần thoại đậm chất Việt</p>
+        <h1>GAME</h1>
+        <p>Thế giới giải trí đa sắc màu</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">VK ENTERTAINMENT</a></li>
             <li class="current">Game</li>
           </ol>
         </nav>
@@ -93,8 +106,8 @@
 
           <div class="col-lg-4 scroll-list" data-aos="fade-up" data-aos-delay="100">
             <div class="services-list">
-              <a href="" class="active">Vệ thần - The Guardiancs</a>
-              <a href="">Zero Fire</a>
+              <a href="service-details5.html" class="active">Vệ thần - The Guardiancs</a>
+              <a href="service-details6.html">Zero Fire</a>
               <a href="">IP 3</a>
               <a href="">IP 4</a>
               <a href="">IP 5</a>
@@ -105,25 +118,44 @@
               <a href="">IP 10</a>
             </div>
 
-           
+
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/game thumnail.png" alt="" class="img-fluid services-img">
-            <h3>Lần đầu tiên ra mắt trên toàn thế giới, Vệ Thần: The Guardians chính thức có mặt trên cửa hàng ứng dụng tại Việt Nam!</h3>
-            <p>
-              Hà Nội, ngày 5 tháng 5 năm 2025 - Sau thời gian dài chờ đợi, tựa game mobile đậm chất thần thoại Việt Nam - Vệ Thần - đã chính thức mô của chào đón game thủ trên cả hai nền tảng iOS và Android. Sự kiện ra mắt này không chỉ thu hút sự quan tâm của cộng đồng game thủ trong nước mà còn hứa hẹn mang đến một làn gió mới cho thị trường game Việt với cốt truyền độc đáo, đồ họa ấn tượng và lối chơi hấp dẫn.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Tin tức liên quan 1</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Tin tức liên quan 2</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Tin tức liên quan 3</span></li>
+
+            <h2 data-i18n="game-title-h2">VK Game: Thế giới giải trí đa sắc màu</h2>
+            <p data-i18n="game-title-1">
+              Bạn đã sẵn sàng bước vào những cuộc phiêu lưu không giới hạn?<b>VK Entertainment </b> tự hào giới thiệu dịch vụ
+              game của chúng tôi, hứa hẹn mang đến một thế giới giải trí đa dạng, từ những trận chiến hoành tráng đến
+              những phút giây thư giãn nhẹ nhàng. Dự kiến ra mắt vào <b>cuối năm nay</b> , VK Game sẽ là điểm đến không thể bỏ
+              qua cho mọi game thủ. </p>
+            <p data-i18n="game-title-2">
+              Chúng tôi sẽ mang đến hai tựa game bom tấn, được đầu tư kỹ lưỡng về đồ họa, cốt truyện và lối chơi, cùng
+              với kho tàng game casual phong phú để bạn thoải mái lựa chọn: </p>
+            <img src="assets/img/GAME (1).png" alt="" class="img-fluid services-img">
+            <h3 data-i18n="game-title-h3">Bom tấn đỉnh cao</h3>
+            <ul class="custom-list">
+              <li><i class="bi bi-check-circle"></i> 
+                <span data-i18n="game-title-3"><b>THE GUARDIANS (Vệ Thần):</b> Đắm chìm vào một thế giới giả
+                  tưởng hùng vĩ, nơi bạn sẽ hóa thân thành những Vệ Thần mạnh mẽ, gánh vác sứ mệnh bảo vệ vương quốc
+                  khỏi thế lực hắc ám. Với đồ họa choáng ngợp, hệ thống nhân vật đa dạng và những trận chiến kịch tính,
+                  "The Guardians" sẽ thử thách kỹ năng và chiến thuật của bạn đến cùng.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span data-i18n="game-title-4"><b>ZERO BREAK:</b> Sẵn sàng cho những pha hành động nghẹt thở
+                  và những thử thách đầy tốc độ? "Zero Break" sẽ đưa bạn vào một thế giới tương lai, nơi bạn phải vượt
+                  qua mọi giới hạn để sống sót và giành chiến thắng. Đây là tựa game đòi hỏi sự phản xạ nhanh nhạy và
+                  khả năng tư duy chiến lược, hứa hẹn mang lại những trải nghiệm căng thẳng và mãn nhãn.</span></li>
             </ul>
-            <p>
-              "Vệ Thần đưa người chơi lạc vào một thế giới huyền bị nơi những truyền thuyết và nhân vật quen thuộc trong văn hóa dân gian Việt Nam được tái hiện một cách sống động. Tử Lạc Long Quân, Âu Cơ đền Tản Viên Sơn Thánh, Thạch Sanh, người chơi sẽ có cơ hội đồng hành cùng các vị thần và anh hùng này trong cuộc chiến chống lại thế lực tà ác, bảo vệ bờ cõi. Điểm nhấn đặc biệt của "Vệ Thần" nằm ở cốt truyện sâu sắc và cách xây dựng nhân vật gần gũi. Thay vì những mô típ quen thuộc, game mang đến một góc nhìn mới mẻ về các vị thần, khác họa rõ nét tính cách và câu chuyện riêng của từng người. Người chơi sẽ không chỉ chiến đấu mà còn khám phá những bí ẩn ẩn sau mỗi nhân vật, tạo nên sự gắn kết và đồng cảm sâu sác
+            <h3 data-i18n="game-title-h3-1">Trò chơi Casual thư giãn</h3>
+            <p data-i18n="game-title-5">
+              Bên cạnh hai siêu phẩm "The Guardians" và "Zero Break", VK Entertainment còn mang đến hơn<b>28 trò chơi
+              casual</b>  đa dạng thể loại. Từ những trò giải đố nhẹ nhàng, game thẻ bài chiến thuật, đến các tựa game mô
+              phỏng hấp dẫn, bạn có thể dễ dàng tìm thấy trò chơi phù hợp để thư giãn sau những giờ làm việc, học tập
+              căng thẳng hoặc đơn giản là giải trí nhanh gọn mọi lúc mọi nơi.
+              Với mục tiêu mang đến những trải nghiệm chất lượng cao và đa dạng cho người chơi, VK Entertainment đã và
+              đang làm việc không ngừng nghỉ để hoàn thiện từng chi tiết của các sản phẩm game. Hãy cùng chờ đón và khám
+              phá thế giới giải trí đầy màu sắc mà VK Game sẽ mang lại vào cuối năm nay nhé!
             </p>
-            Về mặt đồ họa, "Vệ Thần" gây ấn tượng mạnh mẽ với phong cách thiết kế độc đáo, kết hợp hài hòa giữa yếu tố truyền thống và hiện đại. Các chi tiết kiến trúc, trang phục, và đặc biệt là hình ảnh các vị thần được chăm chút tỉ mỉ, mang đậm bản sắc văn hóa Việt Nam. Hiệu ứng kỹ năng chiến đấu đẹp mắt và mượt mà cũng là một diễm cộng lớn, hứa hẹn mang đến những trận chiến mãn nhân. Lối chơi của "Vệ Thần" là sự kết hợp giữa thể loại nhập vai hành động (ARPG) và chiến thuật. Người chơi sẽ chiêu mộ và xây dựng đội hình các vị thần, mỗi người sở hữu những kỹ năng và vai trò khác nhau. Việc sắp xếp đội hình, lựa chọn chiến thuật và phối hợp kỹ năng một cách hợp lý sẽ là chìa khóa để giành chiến thắng trong các trận đầu. Game cũng mang đến nhiều hoạt động PVE và PVP đa dạng, tử vượt ải cốt truyện, tham gia phó bản, đến đầu trường cạnh tranh. bang hội chiến, đảm bảo người chơi luôn có những thử thách mời để chinh phục
-            <p>
+
           </div>
 
         </div>
@@ -134,7 +166,7 @@
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
+   <footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
       <div class="row gy-4">
@@ -156,30 +188,31 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Đường dẫn nhanh</h4>
+          <h4 data-i18n="footer-link">Đường dẫn nhanh</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Trang Chủ</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Giới thiệu </a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Dịch Vụ</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="starter-page.html">Điều Khoản</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Quyền Riêng Tư</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-1">Trang Chủ</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-2">Giới thiệu </a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-3">Dịch Vụ</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="starter-page.html" data-i18n="footer-link-4">Điều Khoản</a>
+            </li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-5">Quyền Riêng Tư</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Dịch Vụ</h4>
+          <h4 data-i18n="footer-link-3">Dịch Vụ</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Game Net</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Even & Show</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Quảng Cáo số</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Super Platform</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Nôi Dung</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-6">Game Net</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-7">Even & Show</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-8">Quảng Cáo số</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-9">Super Platform</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#" data-i18n="footer-link-10">Nôi Dung</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Đăng ký thành viên của VK Entertainment​</h4>
-          <p>Đăng ký để trở thành thành viên!</p>
+          <h4 data-i18n="footer-link-11">Đăng ký thành viên của VK Entertainment​</h4>
+          <p data-i18n="footer-link-12">Đăng ký để trở thành thành viên!</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Đăng Ký "></div>
             <div class="loading">Loading</div>
@@ -206,7 +239,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -223,6 +257,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/lang.js"></script>
 
 </body>
 
