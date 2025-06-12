@@ -42,29 +42,38 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <!-- 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-      
+    
         <h1 class="sitename">Dewi</h1>
       </a> -->
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <img src="assets/img/logo trắng viền đen trong suốt.png" alt="Dewi Logo" style="height: 300px;">
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Trang Chủ</a></li>
-          <li><a href="index.html#about">Về Chúng Tôi</a></li>
-          <li><a href="index.html#services">Tin tức</a></li>
-          <li><a href="index.html#features">Dịch Vụ</a></li>
-          <li><a href="index.html#portfolio">Dự Án</a></li>
-          <li><a href="index.html#team">Đối Tác</a></li>
-          <li><a href="index.html#contact">Liên Hệ</a></li>
-
+          <li><a href="index.html"  data-i18n="nav.hero">Trang Chủ</a></li>
+          <li><a href="index.html#about" data-i18n="nav.about">Về Chúng Tôi</a></li>
+          <li><a href="index.html#services" data-i18n="nav.services" class="active">Dịch VỤ</a></li>
+          <li><a href="index.html#features" data-i18n="nav.features">Công Nghệ</a></li>
+          <li><a href="index.html#portfolio" data-i18n="nav.portfolio" >Dự Án</a></li>
+          <li><a href="index.html#team" data-i18n="nav.team">Đối Tác</a></li>
+          <li><a href="index.html#contact" data-i18n="nav.contact">Liên Hệ</a></li>
+          <li>
+            <div id="language-switcher">
+              <button class="flag-icon-btn" onclick="changeLanguage('vi')">
+                <span class="fi fi-vn"></span>
+              </button>
+              <button class="flag-icon-btn" onclick="changeLanguage('en')">
+                <span class="fi fi-gb"></span>
+              </button>
+              <button class="flag-icon-btn" onclick="changeLanguage('ko')">
+                <span class="fi fi-kr"></span>
+              </button>
+            </div>
+          </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-
     </div>
   </header>
 
