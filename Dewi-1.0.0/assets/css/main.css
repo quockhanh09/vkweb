@@ -1412,8 +1412,8 @@ color: var(--heading-color);
   font-size: 20px;
 }
 .icon-img {
-  width: 65px;
-  height: 65px;
+  width: 75px;
+  height: 75px;
   vertical-align: middle;
   
 }
@@ -2231,7 +2231,7 @@ transform: translate(-150% ,200px);
   border-radius: 0;
   color: var(--default-color);
   background-color: var(--surface-color);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  border-color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
 .contact .php-email-form input[type=text]:focus,
