@@ -1384,7 +1384,7 @@ color: var(--heading-color);
 
 .features .nav-link i {
   padding-right: 15px;
-  font-size: 48px;
+  font-size: 60px;
 }
 
 .features .nav-link h4 {
@@ -2542,8 +2542,8 @@ transform: translate(-150% ,200px);
 }
 
 .right-column {
-  width: 600px;
-  transform: translate(250px, 10px);
+  width: 500px;
+  transform: translate(210px, 10px);
   will-change: transform;
 }
 
