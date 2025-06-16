@@ -89,17 +89,17 @@ const translations = {
     "game-title-2": "Chúng tôi sẽ mang đến hai tựa game bom tấn, được đầu tư kỹ lưỡng về đồ họa, cốt truyện và lối chơi, cùng với kho tàng game casual phong phú để bạn thoải mái lựa chọn:",
     "game-title-3": "<b>THE GUARDIANS (Vệ Thần):</b> Đắm chìm vào một thế giới giả tưởng hùng vĩ, nơi bạn sẽ hóa thân thành những Vệ Thần mạnh mẽ, gánh vác sứ mệnh bảo vệ vương quốc khỏi thế lực hắc ám. Với đồ họa choáng ngợp, hệ thống nhân vật đa dạng và những trận chiến kịch tính, 'The Guardians' sẽ thử thách kỹ năng và chiến thuật của bạn đến cùng.",
     "game-title-4": "<b>ZERO BREAK:</b> Sẵn sàng cho những pha hành động nghẹt thở và những thử thách đầy tốc độ? 'Zero Break' sẽ đưa bạn vào một thế giới tương lai, nơi bạn phải vượt qua mọi giới hạn để sống sót và giành chiến thắng. Đây là tựa game đòi hỏi sự phản xạ nhanh nhạy và khả năng tư duy chiến lược, hứa hẹn mang lại những trải nghiệm căng thẳng và mãn nhãn.",
-    "game-title-5": "Bên cạnh hai siêu phẩm 'The Guardians' và 'Zero Break',VK Entertainment còn mang đến hơn <b>28 trò chơi casual</b> đa dạng thể loại. Từ những trò giải đố nhẹ nhàng, game thẻ bài chiến thuật, đến các tựa game mô phỏng hấp dẫn, bạn có thể dễ dàng tìm thấy trò chơi phù hợp để thư giãn sau những giờ làm việc, học tập căng thẳng hoặc đơn giản là giải trí nhanh gọn mọi lúc mọi nơi. Với mục tiêu mang đến những trải nghiệm chất lượng cao và đa dạng cho người chơi, VK Entertainment đã và đang làm việc không ngừng nghỉ để hoàn thiện từng chi tiết của các sản phẩm game. Hãy cùng chờ đón và khám phá thế giới giải trí đầy màu sắc mà VK Game sẽ mang lại vào cuối năm nay nhé!",
+    "game-title-5": "Bên cạnh hai siêu phẩm 'The Guardians' và 'Zero Break', VK Entertainment còn mang đến hơn <b>28 trò chơi casual</b> đa dạng thể loại. Từ những trò giải đố nhẹ nhàng, game thẻ bài chiến thuật, đến các tựa game mô phỏng hấp dẫn, bạn có thể dễ dàng tìm thấy trò chơi phù hợp để thư giãn sau những giờ làm việc, học tập căng thẳng hoặc đơn giản là giải trí nhanh gọn mọi lúc mọi nơi. Với mục tiêu mang đến những trải nghiệm chất lượng cao và đa dạng cho người chơi, VK Entertainment đã và đang làm việc không ngừng nghỉ để hoàn thiện từng chi tiết của các sản phẩm game. Hãy cùng chờ đón và khám phá thế giới giải trí đầy màu sắc mà VK Game sẽ mang lại vào cuối năm nay nhé!",
     /*webtoon*/
     "webtoon-title-h2": "VK Webtoon: Thế giới truyện tranh kỹ thuật số",
     "webtoon-title-h3": "Kho tàng Webtoon Hàn Quốc Bản quyền",
     "webtoon-title-1": "Bạn là một fan của những câu chuyện lôi cuốn, những nét vẽ sống động và thế giới đa sắc màu? <b>VK Entertainment</b> tự hào giới thiệu <b>VK Webtoon</b>, dịch vụ truyện tranh kỹ thuật số mới của chúng tôi, hứa hẹn mang đến những trải nghiệm đọc truyện tuyệt vời nhất. Dự kiến ra mắt vào <b>cuối năm nay</b>, VK Webtoon sẽ là cánh cửa mở ra thế giới webtoon Hàn Quốc bản quyền, nơi bạn có thể thưởng thức những tác phẩm nổi tiếng và được yêu thích nhất.",
-    "webtoon-title-2": "Với VK Webtoon, chúng tôi cam kết mang đến cho người đọc Việt Nam những tác phẩm chất lượng cao nhất. Ngay trong giai đoạn đầu ra mắt, chúng tôi sẽ giới thiệu <b>từ 30 đến 50 tác phẩm webtoon bản quyền từ Hàn Quốc</b> . Đây là những bộ truyện đã và đang làm mưa làm gió trên các nền tảng quốc tế, được đông đảo độc giả yêu thích bởi cốt truyện hấp dẫn, nhân vật độc đáo và phong cách vẽ ấn tượng",
+    "webtoon-title-2": "Với VK Webtoon, chúng tôi cam kết mang đến cho người đọc Việt Nam những tác phẩm chất lượng cao nhất. Ngay trong giai đoạn đầu ra mắt, chúng tôi sẽ giới thiệu <b>từ 30 đến 50 tác phẩm webtoon bản quyền từ Hàn Quốc</b>. Đây là những bộ truyện đã và đang làm mưa làm gió trên các nền tảng quốc tế, được đông đảo độc giả yêu thích bởi cốt truyện hấp dẫn, nhân vật độc đáo và phong cách vẽ ấn tượng",
     "webtoon-title-3": "<b>Bạn sẽ có cơ hội đắm chìm vào:</b>",
-    "webtoon-title-4": "<b>Những câu chuyện tình yêu lãng mạn:</b>Từ những mối tình học đường trong sáng đến những câu chuyện tình yêu vượt mọi rào cản.",
-    "webtoon-title-5": "<b>Hành trình phiêu lưu kỳ ảo:</b>Khám phá những thế giới phép thuật, những cuộc chiến đấu cam go và những bí ẩn cần được vén màn.",
+    "webtoon-title-4": "<b>Những câu chuyện tình yêu lãng mạn:</b> Từ những mối tình học đường trong sáng đến những câu chuyện tình yêu vượt mọi rào cản.",
+    "webtoon-title-5": "<b>Hành trình phiêu lưu kỳ ảo:</b> Khám phá những thế giới phép thuật, những cuộc chiến đấu cam go và những bí ẩn cần được vén màn.",
     "webtoon-title-6": "<b>Những lát cắt cuộc sống chân thực:</b> Đôi khi là những câu chuyện hài hước, cảm động về cuộc sống thường ngày",
-    "webtoon-title-7": "<b>Các thể loại đa dạng khác:</b>Hành động, trinh thám, giả tưởng, BL, GL, v.v., đảm bảo đáp ứng mọi sở thích của bạn.",
+    "webtoon-title-7": "<b>Các thể loại đa dạng khác:</b> Hành động, trinh thám, giả tưởng, BL, GL, v.v., đảm bảo đáp ứng mọi sở thích của bạn.",
     "webtoon-title-8": "VK Webtoon không chỉ là nơi để bạn đọc truyện, mà còn là cầu nối để bạn tiếp cận với văn hóa và xu hướng truyện tranh Hàn Quốc. Chúng tôi không ngừng nỗ lực để cập nhật những tác phẩm mới nhất, hot nhất, đảm bảo bạn luôn là người đón đầu những trào lưu webtoon đỉnh cao.",
     "webtoon-title-9": "Hãy cùng chờ đón <b>VK Webtoon</b> ra mắt vào cuối năm nay để bắt đầu hành trình khám phá thế giới truyện tranh kỹ thuật số đầy màu sắc và hấp dẫn",
     /*GUARDIANS*/
@@ -190,36 +190,42 @@ const translations = {
     "MusicBank-title-17": "<b>TikTok:</b> [Link TikTok Music Bank Vietnam] (Nơi những khoảnh khắc hot nhất và viral nhất được chia sẻ!)",
     "MusicBank-title-18": "<b>Instagram:</b> [Link Instagram Music Bank Vietnam] (Cập nhật hình ảnh, video độc quyền từ các nghệ sĩ và hậu trường)",
     /* D'FESTA HANOI 2023*/
+    "2023-title-h3":"D'FESTA HANOI 2023",
     "2023-title-1":"<b>Tên sự kiện:</b> D'FESTA HANOI 2023",
     "2023-title-2":"<b>Địa điểm tổ chức:</b> Hà Nội",
     "2023-title-3":"<b>Ngày tổ chức:</b> 14/10/2023",
     "2023-title-4":" Triển lãm D'festa - triển lãm về nghệ sĩ K-POP tiêu biểu của Hàn Quốc lần đầu tiên được tổ chức tại Việt Nam do VK Entertainment tổ chức đã diễn ra tại Trung tâm thương mại Times City, Hà Nội từ ngày 14/10 đến ngày 30/11/2023. Bằng cách ứng dụng công nghệ thực tế ảo, khách tham quan được chiêm ngưỡng những hình ảnh, video chưa từng công bố của các thần tượng nổi tiếng đến từ Hàn Quốc.",
     "Project-title-h2":"Thông tin sự kiện",
     /* BIG CONCERT 2017*/
+    "2017-title-h3":"BIG CONCERT 2017",
     "2017-title-1":"<b>Tên sự kiện:</b> Đại nhạc hội “Đêm hữu nghị Việt – Hàn”",
     "2017-title-2":"<b>Địa điểm tổ chức:</b> Nhà Hát Lớn, Hà Nội",
     "2017-title-3":"<b>Danh sách nghệ sĩ:</b> Yiruma, Ailee, Bảo Anh, Hương Tràm, Min, Soobin Hoàng Sơn, v.v",
     "2017-title-4":"<b>Ngày tổ chức:</b> 03/12/2017",
     "2017-title-5":"Nằm trong chuỗi sự kiện kỉ niệm 25 năm ngày thiết lập mối quan hệ Việt – Hàn, chương trình Đại nhạc hội “Đêm hữu nghị Việt – Hàn” do Đại sứ quán Hàn Quốc tại Việt Nam chủ quản và VK Entertainment đồng hành tổ chức vào ngày 03/12/2017 tại Nhà Hát Lớn Hà Nội. Chương trình có sự góp mặt của các nghệ sĩ hàng đầu Việt Nam – Hàn Quốc như Nghệ sỹ dương cầm Yiruma, Beyonce xứ Hàn - Ailee và các gương mặt được giới trẻ Việt mến mộ: Soobin Hoàng Sơn, Hương Tràm, Bảo Anh, Min,… tạo nên một “Đại Tiệc Âm Nhạc” hoành tráng nhất dành cho người yêu âm nhạc nói chung và người hâm mộ K-Pop tại Việt Nam nói riêng.",
     /* KFCIM 2016*/
+    "2016-title-h3":"KFCIM 2016",
     "2016-title-1":"<b>Tên sự kiện:</b> Fashion Culture Industry Market (KFCIM)",
     "2016-title-2":"<b>Địa điểm tổ chức:</b> Nhà thi đấu Phú Thọ, Tp. Hồ Chí Minh",
     "2016-title-3":"<b>Danh sách nghệ sĩ:</b> SNRD, Sewing Boundaries, BOOK ON THE PARK, Jimi Blue,…",
     "2016-title-4":"<b>Ngày tổ chức:</b> 29/08/2016 - 30/08/2016",
     "2016-title-5":"Fashion Culture Industry Market là chuỗi chương trình giao lưu văn hóa giữa hai quốc gia Việt Nam và Hàn Quốc diễn ra tại TP.HCM, thông qua hoạt động trình diễn thời trang và thi đấu thể thao điện tử (Liên minh huyền thoại) Chương trình có sự góp mặt của 14 nhãn hàng thời trang Hàn Quốc như SNRD, Sewing Boundaries, BOOK ON THE PARK, Jimi Blue,…Cùng sự tham gia của đội tuyển Liên Minh Huyền Thoại CJ Entus (cùng sự xuất hiện đặt biệt của MADLIFE, thần đồng the Shy) đến từ Hàn Quốc và đội tuyển của Việt Nam là Vietnam Allstar ngoài ra chương trình còn có sự xuất hiện của nhóm nhạc thần tượng INX, nhóm nhảy dancecover SHE và á hậu HUYỂN MY đảm nhận vai trò MC, người mẫu cho chương trình.",
     /* HEC KOREA FESTIVAL 2014*/
+    "2014-title-h3":"HEC KOREA FESTIVAL 2014",
     "2014-title-1":"<b>Tên sự kiện:</b> 2014 Korea HEC Festival in Vietnam",
     "2014-title-2":"<b>Địa điểm tổ chức:</b> Sân vận động Quân khu 7, TP.HCM",
     "2014-title-3":"<b>Danh sách nghệ sĩ:</b> SISTAR, SNSD, 2PM, MISS A THE GATE",
     "2014-title-4":"<b>Ngày tổ chức:</b> 22/03/2014",
     "2014-title-5":"HEC Korea Festival (Human Equilibrium Culture Korea Festival) là chương trình biểu diễn âm nhạc vòng quanh 10 quốc gia Trung Quốc, Việt Nam. Singapore, Mông Có. Úc, Mỹ,.., với tầm cỡ quốc tế do Bộ Văn hóa Thông tin Hàn Quốc và Đài truyền hình Hàn Quốc MBC tổ chức kết hợp với mỗi quốc gia mà chương trình đi qua, nhằm quảng bá văn hóa Hàn Quốc thông qua làn sóng Kpop. Đạo diễn chương trình là Choi Hyung Yun, một tên tuổi trong lĩnh vực âm nhạc giải trí xứ Hàn. VK Entertainment là đơn vị đại diện đồng tổ chức và đưa HEC Korea về Việt Nam",
     /* K-POP FESTIVAL 2012*/
+    "2012-title-h3":"K-POP FESTIVAL 2012",
     "2012-title-1":"<b>Tên sự kiện:</b> K-pop Festival 2012 - Concert in Vietnam",
     "2012-title-2":"<b>Địa điểm tổ chức:</b> Sân vận động Mỹ Đình, Hà Nội",
     "2012-title-3":"<b>Danh sách nghệ sĩ:</b> Sân vận động Mỹ Đình, Hà Nội Danh sách nghệ sĩ GIRL'S GENERATION, SISTAR INFINITE TEEN TOP SON DAMBI, BAP, MISS A. KARA T-ARA TVXQ. Hyun-Ah. BEAST. CHAOS. FIESTAR, FT Island...",
     "2012-title-4":"<b>Ngày tổ chức: 29/11/2012</b>",
     "2012-title-5":"Được sự ủng hộ của Bộ Ngoại giao, Bộ Văn hóa và Đại sử quân hai nước Việt Nam - Hàn Quốc, nhân kỷ niệm 20 năm thiết lập quan hệ ngoại giao Việt Nam - Hàn Quốc (12/1992-12/20121. Đài truyền hình MBC, công ty 9M Art Hàn Quốc cùng với VK Entertainment đã tổ chức đêm giao lưu âm nhạc trẻ Việt - Hàn mang tên K-pop Festival 2012-Concert in Vietnam tổ chức vào hồi 19h30' ngày 29 tháng 11 năm 2012 tại Sân vận động Quốc gia Mỹ Đình - Hà Nội, chương trình hiện đã được Bộ Văn hóa. Thể thao và Du lịch Việt Nam cấp phép Chương trình thực hiện bởi các nhà sản xuất chuyên nghiệp hàng đầu Hàn Quốc với kỹ thuật dàn dựng hiện đại nhất châu Á, cùng sự tham gia của các nhóm nhạc thần tượng nổi tiếng. K-pop Festival 2012-Concert in Vietnam đã mang tới những khoảnh khắc ấn tượng mới lạ và giàu sức hấp dẫn cho công chúng",
     /* MUSIC BANK IN HANOI 2015*/
+    "2015-title-h3":"MUSIC BANK IN HANOI 2015",
     "2015-title-1":"<b>Tên sự kiện:</b> MUSIC BANK IN HANOI 2015",
     "2015-title-2":"<b>Địa điểm tổ chức:</b> Sân vận động Mỹ Đình, Hà Nội",
     "2015-title-3":"<b>Danh sách nghệ sĩ: EXO, SHINEE SISTAR BLOCK B. GOT7, APINK TEEN TOP</b>",
@@ -322,7 +328,7 @@ const translations = {
     "webtoon-title-h2": "VK WEBTOON: Dive into the Ultimate Digital Comics Universe!",
     "webtoon-title-h3": "A Treasure Trove of Licensed Korean Webtoons",
     "webtoon-title-1": "Are you a fan of captivating stories, vibrant artwork, and diverse worlds? <b>VK Entertainment </b>is thrilled to introduce <b>VK Webtoon</b>, our new digital comic service, promising the most incredible reading experiences. Set to launch <b>later this year</b> , VK Webtoon will open the door to a world of licensed Korean webtoons, where you can enjoy the most famous and beloved titles.",
-    "webtoon-title-2": "With VK Webtoon, we're committed to bringing Vietnamese readers the highest quality works. Right from our initial launch, we'll feature<b>30 to 50 licensed webtoon titles directly from Korea</b> . These are stories that have already taken international platforms by storm, widely loved by readers for their compelling plots, unique characters, and impressive art styles.",
+    "webtoon-title-2": "With VK Webtoon, we're committed to bringing Vietnamese readers the highest quality works. Right from our initial launch, we'll feature<b>30 to 50 licensed webtoon titles directly from Korea</b>. These are stories that have already taken international platforms by storm, widely loved by readers for their compelling plots, unique characters, and impressive art styles.",
     "webtoon-title-3": "<b>You'll have the chance to immerse yourself in:</b>",
     "webtoon-title-4": "<b>Romantic Love Stories:</b> From innocent school romances to love stories that overcome all obstacles.",
     "webtoon-title-5": "<b>Fantastical Adventures:</b> Explore magical worlds, fierce battles, and mysteries waiting to be unveiled.",
@@ -419,36 +425,42 @@ const translations = {
     "MusicBank-title-17": "<b>TikTok:</b> [Link TikTok Music Bank Vietnam] (Where the hottest and most viral moments are shared!)",
     "MusicBank-title-18": "<b>Instagram:</b> [Link Instagram Music Bank Vietnam] (Updates on exclusive photos and videos from artists and behind the scenes)",
     /* D'FESTA HANOI 2023*/
+    "2023-title-h3":"D'FESTA HANOI 2023",
     "2023-title-1":"<b>Event Title:</b> D'FESTA HANOI 2023",
     "2023-title-2":"<b>Venue/City:</b> Hanoi, Vietnam",
     "2023-title-3":"<b>Event Date: </b> from November 14, 2023",
     "2023-title-4":" D'FESTA Exhibition: A Groundbreaking K-Pop Experience in Vietnam VK Entertainment proudly brought <D'FESTA>, a premier exhibition showcasing iconic K-Pop artists, to Vietnam for the very first time. This groundbreaking event was held at Times City Shopping Mall in Hanoi from October 14 to November 30, 2023. <br> Visitors to <D'FESTA> enjoyed an immersive experience, utilizing cutting-edge virtual reality (VR) technology to explore never-before-seen photos and videos of their favorite K-Pop idols. This innovative approach provided an unparalleled opportunity for fans to connect with their beloved artists.",
     "Project-title-h2":"Event Infomation",
   /* BIG CONCERT 2017*/
+    "2017-title-h3":"BIG CONCERT 2017",
     "2017-title-1":"<b>Project</b> Vietnam-Korea Friendship Concert 2017",
     "2017-title-2":"<b>Venue:</b> Hanoi Opera House, Hanoi",
     "2017-title-3":"<b>Line-up Artists:</b> Yiruma, Ailee, Bảo Anh, Hương Tràm, Min, Soobin Hoàng Sơn, v.v",
     "2017-title-4":"<b>Date:</b> December 3, 2017",
     "2017-title-5":"Celebrating 25 Years: Vietnam-Korea Friendship Concert 'Night of Amity' As a highlight in the series of events celebrating the 25th anniversary of Vietnam-Korea diplomatic relations, the grand Vietnam-Korea Friendship Concert – 'Night of Friendship' took place on December 3, 2017, at the prestigious Hanoi Opera House. <br> This magnificent event was overseen by the Embassy of the Republic of Korea in Vietnam and proudly co-organized by VK Entertainment. It featured a stellar lineup of leading Vietnamese and Korean artists, including renowned pianist Yiruma, the 'Korean Beyoncé' Ailee, and beloved Vietnamese stars such as Soobin Hoang Son, Huong Tram, Bao Anh, and Min.<br> The concert created an unforgettable 'Musical Feast' offering a spectacular experience for music lovers in general and the passionate K-Pop community in Vietnam in particular.",
   /* KFCIM 2016*/
+    "2016-title-h3":"KFCIM 2016",
     "2016-title-1":"<b>Project:</b> Fashion Culture Industry Market (KFCIM) 2016",
     "2016-title-2":"<b>Venue:</b> Phu Tho Indoor Stadium, Ho Chi Minh City",
     "2016-title-3":"<b>Line-up Artists:</b> SNRD, Sewing Boundaries, BOOK ON THE PARK, Jimi Blue, + more",
     "2016-title-4":"<b>Dates:</b> August 29 - 30, 2016",
     "2016-title-5":"Fashion Culture Industry Market (F-CIM): A Premier Vietnam-Korea Cultural Exchange <br> The Fashion Culture Industry Market (F-CIM) was a vibrant series of cultural exchange programs between Vietnam and South Korea, held in Ho Chi Minh City. This unique event seamlessly blended fashion showcases with eSports competitions, specifically featuring League of Legends.<br> The program boasted the participation of 14 leading Korean fashion brands, including SNRD, Sewing Boundaries, BOOK ON THE PARK, and Jimi Blue. In the eSports arena, it brought together the renowned Korean League of Legends team CJ Entus, with a special appearance by the legendary Madlife and The Shy, competing against Vietnam Allstar team.<br> Beyond fashion and gaming, the F-CIM also captivated audiences with performances by K-Pop idol group INX, dance cover group SHE, and featured Miss Universe Vietnam runner-up Huyen My as both an MC and model for the event.",
     /* HEC KOREA FESTIVAL 2014*/
+    "2014-title-h3":"HEC KOREA FESTIVAL 2014",
     "2014-title-1":"<b>Project:</b> 2014 Korea HEC Festival in Vietnam",
     "2014-title-2":"<b>Venue:</b> Military Zone 7 Stadium, Ho Chi Minh City",
     "2014-title-3":"<b>Line-up Artist:</b> SISTAR, SNSD, 2PM, Miss A, The GATE",
     "2014-title-4":"<b>Date:</b> March 22, 2014",
     "2014-title-5":"HEC Korea Festival (Human Equilibrium Culture Korea Festival) là chương trình biểu diễn âm nhạc vòng quanh 10 quốc gia Trung Quốc, Việt Nam. Singapore, Mông Có. Úc, Mỹ,.., với tầm cỡ quốc tế do Bộ Văn hóa Thông tin Hàn Quốc và Đài truyền hình Hàn Quốc MBC tổ chức kết hợp với mỗi quốc gia mà chương trình đi qua, nhằm quảng bá văn hóa Hàn Quốc thông qua làn sóng Kpop. Đạo diễn chương trình là Choi Hyung Yun, một tên tuổi trong lĩnh vực âm nhạc giải trí xứ Hàn. VK Entertainment là đơn vị đại diện đồng tổ chức và đưa HEC Korea về Việt Nam",
     /* K-POP FESTIVAL 2012*/
+    "2012-title-h3":"K-POP FESTIVAL 2012",
     "2012-title-1":"<b>Project:</b> K-Pop Festival 2012 - Hanoi Concert",
     "2012-title-2":"<b>Venue:</b> My Dinh National Stadium, Hanoi",
     "2012-title-3":"<b>Starring:</b> Girls' Generation, SISTAR, INFINITE, TEEN TOP, Son Dam Bi, B.A.P, Miss A, KARA, T-ARA, TVXQ, Hyun-A, BEAST, CHAOS, FIESTAR, FT Island, and more",
     "2012-title-4":"<b>Date:</b> November 29, 2012",
     "2012-title-5":"Celebrating 20 Years: K-Pop Festival 2012 - Concert in Vietnam<br> In a grand celebration of the 20th anniversary of Vietnam-Korea diplomatic relations (December 1992 - December 2012), VK Entertainment proudly collaborated with MBC Broadcasting Station and 9M Art Korea to organize the K-Pop Festival 2012 - Concert in Vietnam.<br> This major youth music exchange event received strong support from the Ministries of Foreign Affairs and Culture of both Vietnam and Korea, as well as the Embassies of the two nations.<br> Held at My Dinh National Stadium in Hanoi on November 29, 2012, at 7:30 PM, the concert was officially licensed by Vietnam's Ministry of Culture, Sports, and Tourism. The show featured state-of-the-art staging techniques by leading Korean producers and captivated audiences with performances from popular K-Pop idol groups.<br> The K-Pop Festival 2012 - Concert in Vietnam delivered an unforgettable experience, bringing fresh, impressive, and highly engaging moments to the Vietnamese public.",
     /* MUSIC BANK IN HANOI 2015*/
+    "2015-title-h3":"MUSIC BANK IN HANOI 2015",
     "2015-title-1":"<b>Project:</b> MUSIC BANK IN HANOI 2015",
     "2015-title-2":"<b>Venue:</b> Sân vận động Mỹ Đình, Hà Nội",
     "2015-title-3":"<b>Line-up Artists:</b> EXO, SHINEE SISTAR BLOCK B. GOT7, APINK TEEN TOP",
@@ -543,7 +555,7 @@ const translations = {
     "game-title-h2": "VK GAME: 다채로운 엔터테인먼트의 세계가 찾아옵니다!",
     "game-title-h3": "두 가지 최고 블록버스터 타이틀",
     "game-title-h3-1": "28가지 편안한 캐주얼 게임",
-    "game-title-1": "무한한 모험을 떠날 준비가 되셨나요? <b>VK Entertainment는</b> 장엄한 전투부터 편안한 휴식 시간까지, 다채로운 엔터테인먼트의 세계를 선사할 게임 서비스를 소개하게 되어 기쁩니다. <b>올해 말 출시 예정인</b> VK Game은 모든 게이머에게 놓칠 수 없는 목적지가 될 것입니다.",
+    "game-title-1": "무한한 모험을 떠날 준비가 되셨나요? <b>VK Entertainment</b> 는장엄한 전투부터 편안한 휴식 시간까지, 다채로운 엔터테인먼트의 세계를 선사할 게임 서비스를 소개하게 되어 기쁩니다. <b>올해 말 출시 예정인</b> VK Game은 모든 게이머에게 놓칠 수 없는 목적지가 될 것입니다.",
     "game-title-2": "저희는 놀라운 그래픽, 매혹적인 스토리라인, 몰입감 넘치는 게임 플레이로 정교하게 제작된 두 가지 블록버스터 타이틀과 함께, 자유롭게 선택할 수 있는 풍부한 캐주얼 게임 컬렉션을 제공할 것입니다.",
     "game-title-3": "<b>THE GUARDIANS (수호자)</b>: 웅장한 판타지 세계에 몰입하여 강력한 수호자가 되어 어둠의 세력으로부터 왕국을 보호하는 임무를 수행하세요. 압도적인 그래픽, 다양한 캐릭터 시스템, 박진감 넘치는 전투를 통해 'The Guardians'는 여러분의 기술과 전략을 한계까지 시험할 것입니다. 이 MMORPG는 여러분의 진정한 기량을 시험할 것입니다.",
     "game-title-4": "<b>ZERO BREAK:</b> 숨 막히는 액션과 속도감 넘치는 도전에 대비하세요! 'Zero Break'는 여러분을 미래 세계로 안내하며, 생존하고 승리하기 위해 모든 한계를 극복해야 합니다. 이 게임은 빠른 반사 신경과 전략적 사고를 요구하며, 긴장감 넘치고 눈을 즐겁게 하는 경험을 약속합니다.",
@@ -649,6 +661,7 @@ const translations = {
     "MusicBank-title-17": "<b>틱톡:</b> [뮤직뱅크 베트남 틱톡 링크] (가장 핫하고 바이럴한 순간들이 공유되는 곳!)",
     "MusicBank-title-18": "<b>인스타그램:</b> [뮤직뱅크 베트남 인스타그램 링크] (아티스트와 비하인드 독점 사진 및 영상 업데이트)",
    /* D'FESTA HANOI 2023*/
+   "2023-title-h3":"D'FESTA HANOI 2023",
     "2023-title-1":"<b>이벤트명:</b> D'FESTA HANOI 2023",
     "2023-title-2":"<b>개최 장소:</b> 하노이",
     "2023-title-3":"<b>개최일:</b> 2023년 10월 14일",
@@ -656,30 +669,35 @@ const translations = {
     "Project-title-h2":"이벤트 정보",
 
     /* BIG CONCERT 2017*/
+    "2017-title-h3":"BIG CONCERT 2017",
     "2017-title-1":"<b>이벤트명:</b> 베트남-한국 우정의 밤 대음악회",
     "2017-title-2":"<b>개최 장소:</b> 하노이 오페라 하우스",
     "2017-title-3":"<b>아티스트 라인업:</b> 이루마, 에일리, 바오 안(Bảo Anh), 흐엉 짬(Hương Tràm), 민(Min), 수빈 호앙 선(Soobin Hoàng Sơn) 등",
     "2017-title-4":"<b>Ngày tổ chức:</b> 03/12/2017",
     "2017-title-5":"베트남-한국 우정의 밤 대음악회는 한-베 수교 25주년 기념 행사의 일환으로, 주베트남 대한민국 대사관이 주관하고 VK 엔터테인먼트가 공동 주최하여 2017년 12월 3일 하노이 오페라 하우스에서 개최되었습니다. 이 행사는 피아니스트 이루마, 한국의 비욘세로 불리는 에일리, 그리고 베트남 젊은 세대에게 사랑받는 수빈 호앙 선(Soobin Hoàng Sơn), 흐엉 짬(Hương Tràm), 바오 안(Bảo Anh), 민(Min) 등 베트남과 한국의 최고 아티스트들이 참여하여, 음악 애호가들과 베트남 K-Pop 팬들을 위한 가장 웅장한 '음악 축제'를 만들어냈습니다.",
     /* KFCIM 2016*/
+    "2016-title-h3":"KFCIM 2016",
     "2016-title-1":"<b>이벤트명:</b> 패션 문화 산업 마켓 (Fashion Culture Industry Market - KFCIM)",
     "2016-title-2":"<b>개최 장소:</b> 호치민 푸토 실내경기장",
     "2016-title-3":"<b>아티스트 라인업:</b> SNRD, Sewing Boundaries, BOOK ON THE PARK, Jimi Blue 등",
     "2016-title-4":"<b>개최일:</b> 2016년 8월 29일 ~ 2016년 8월 30일",
     "2016-title-5":"패션 문화 산업 마켓(Fashion Culture Industry Market은 호치민에서 열린 베트남과 한국 양국 간의 문화 교류 행사 시리즈로, 패션쇼와 e스포츠(리그 오브 레전드) 경기를 통해 진행되었습니다. 이 행사에는 SNRD, Sewing Boundaries, BOOK ON THE PARK, Jimi Blue 등 14개 한국 패션 브랜드가 참여했습니다. 또한 한국에서는 리그 오브 레전드 팀 CJ 엔투스 [특히 매드라이프(MADLIFE)와 더샤이(The Shy)의 특별 출연], 베트남에서는 베트남 올스타(Vietnam Allstar) 팀이 참가했습니다. 이 외에도 아이돌 그룹 INX, 댄스 커버 그룹 SHE, 그리고 미스 베트남 출신 후옌 미(Huyen My)가 MC이자 모델로 출연했습니다.",
     /* HEC KOREA FESTIVAL 2014*/
+    "2014-title-h3":"HEC KOREA FESTIVAL 2014",
     "2014-title-1":"<b>이벤트명:</b> 2014 코리아 HEC 페스티벌 인 베트남 (2014 Korea HEC Festival in Vietnam)",
     "2014-title-2":"<b>개최 장소:</b> 호치민 7군 경기장",
     "2014-title-3":"<b>아티스트 라인업:</b> 씨스타(SISTAR), 소녀시대(SNSD), 2PM, 미쓰에이(MISS A), 더 게이트(THE GATE)",
     "2014-title-4":"<b>개최일:</b> 2014년 3월 22일",
     "2014-title-5":"HEC 코리아 페스티벌(Human Equilibrium Culture Korea Festival)은 한국 문화체육관광부와 MBC가 프로그램이 진행되는 각 국가와 협력하여 한국 문화를 K-Pop 한류를 통해 홍보하기 위해 중국, 베트남, 싱가포르, 몽골, 호주, 미국 등 10개국을 순회하며 개최하는 국제적인 음악 공연 프로그램입니다. 프로그램 연출은 한국 엔터테인먼트 음악 분야의 유명 인사 최형윤 감독이 맡았습니다. VK 엔터테인먼트는 HEC 코리아 페스티벌을 베트남으로 가져오고 공동 주최하는 대표 기관입니다.",
     /* K-POP FESTIVAL 2012*/
+    "2012-title-h3":"K-POP FESTIVAL 2012",
     "2012-title-1":"<b>이벤트명:</b> K-Pop 페스티벌 2012 - 베트남 콘서트 (K-pop Festival 2012 - Concert in Vietnam)",
     "2012-title-2":"<b>개최 장소:</b>  하노이 미딘 국립경기장",
     "2012-title-3":"<b>아티스트 라인업:</b> 소녀시대(GIRL'S GENERATION), 씨스타(SISTAR), 인피니트(INFINITE), 틴탑(TEEN TOP), 손담비(SON DAMBI), B.A.P, 미쓰에이(MISS A), 카라(KARA), 티아라(T-ARA), 동방신기(TVXQ), 현아(Hyun-Ah), 비스트(BEAST), 카오스(CHAOS), 피에스타(FIESTAR), FT아일랜드(FT Island) 등",
     "2012-title-4":"<b>개최일:</b> 2012년 11월 29일",
     "2012-title-5":"K-pop 페스티벌 2012 - 베트남 콘서트(K-pop Festival 2012 - Concert in Vietnam)는 베트남-한국 수교 20주년(1992년 12월 - 2012년 12월)을 기념하여, 양국 외교부, 문화부, 대사관의 지지를 받아 MBC 방송국, 한국 9M Art 회사가 VK 엔터테인먼트와 함께 베트남-한국 청소년 음악 교류의 밤을 주최했습니다. 이 행사는 2012년 11월 29일 오후 7시 30분 하노이 미딘 국립경기장에서 열렸으며, 베트남 문화체육관광부의 허가를 받았습니다.<br> 이 프로그램은 아시아 최고 수준의 현대적인 연출 기술을 가진 한국의 선도적인 전문 제작진에 의해 기획되었으며, 유명 아이돌 그룹들이 참여했습니다. K-pop 페스티벌 2012 - 베트남 콘서트는 대중에게 새롭고 인상적이며 매력적인 순간들을 선사했습니다.",
     /* MUSIC BANK IN HANOI 2015*/
+    "2015-title-h3":"MUSIC BANK IN HANOI 2015",
     "2015-title-1":"<b>이벤트명:</b> 뮤직뱅크 인 하노이 2015 (MUSIC BANK IN HANOI 2015)",
     "2015-title-2":"<b>개최 장소:</b> 하노이 미딘 국립경기장",
     "2015-title-3":"<b>아티스트 라인업:</b>엑소(EXO), 샤이니(SHINEE), 씨스타(SISTAR), 블락비(BLOCK B), 갓세븐(GOT7), 에이핑크(APINK), 틴탑(TEEN TOP)",
@@ -690,11 +708,21 @@ const translations = {
 };
 
 function changeLanguage(lang) {
+  localStorage.setItem('lang', lang); 
+  location.reload();
+  
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
-    el.innerHTML = translations[lang][key] || el.innerHTML;
+    el.innerHTML = translations[lang][key] || key;
   });
+  
 }
 
-// Gọi mặc định tiếng Việt
-window.onload = () => changeLanguage('vi');
+window.onload = () => {
+  const savedLang = localStorage.getItem('lang') || 'vi';
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    el.innerHTML = translations[savedLang][key] || key;
+  });
+};
+
