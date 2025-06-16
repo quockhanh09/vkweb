@@ -2811,5 +2811,10 @@ transform: translate(-150% ,200px);
   opacity: 0;
 }
 
+p{
+  text-align: justify;
+}
 
-
+.stats-ip{
+  text-align:center;
+}
