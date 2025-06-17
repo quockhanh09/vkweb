@@ -1409,7 +1409,29 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/lang.js"></script>
   <script>
- 
+  function changeLanguage(lang) {
+    localStorage.setItem('lang', lang); // Lưu lựa chọn
+    const currentUrl = window.location.href;
+    const newUrl = currentUrl.replace(/starter-page-(vi|en|ko)\.html/, `starter-page-${lang}.html`);
+    
+    // Nếu đã ở đúng trang thì không chuyển nữa
+    if (currentUrl !== newUrl) {
+      window.location.href = newUrl;
+    }
+  }
+
+  // Khi trang tải xong
+  window.onload = () => {
+    const savedLang = localStorage.getItem('lang') || 'vi';
+    const match = window.location.pathname.match(/starter-page-(vi|en|ko)\.html/);
+    const currentLang = match ? match[1] : 'vi';
+
+    // Nếu ngôn ngữ lưu khác với ngôn ngữ trang đang mở → chuyển về đúng trang
+    if (savedLang !== currentLang) {
+      const correctedUrl = window.location.href.replace(/starter-page-(vi|en|ko)\.html/, `starter-page-${savedLang}.html`);
+      window.location.href = correctedUrl;
+    }
+  };
 </script>
 
 
