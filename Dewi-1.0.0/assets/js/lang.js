@@ -169,6 +169,7 @@ const translations = {
     "VK-MUSIC-title-26": "Music Bank Việt Nam không chỉ là một chương trình giải trí, mà còn là một sân khấu quan trọng, nơi V-Pop được tôn vinh và tỏa sáng rực rỡ mỗi tuần.",
     "VK-MUSIC-title-27": "Với những dịch vụ này, chúng tôi mong muốn mang đến một trải nghiệm âm nhạc hoàn hảo, từ việc kết nối cộng đồng, cập nhật thông tin chính xác, đến việc thưởng thức các chương trình giải trí đỉnh cao. Hãy sẵn sàng hòa mình vào thế giới âm nhạc do chúng tôi mang lại!",
     /* Music Bank*/
+    "MusicBank.services":"Music Bank Việt Nam",
     "MusicBank-title-h2": "Music Bank Việt Nam: Chương trình bảng xếp hạng âm nhạc hàng đầu Việt Nam",
     "MusicBank-title-h2-1": "Theo dõi Music Bank Việt Nam ngay hôm nay!",
     "MusicBank-title-1": "Cuối năm nay, hãy sẵn sàng đón chào một kỷ nguyên mới của âm nhạc Việt Nam với sự ra mắt của <b>Music Bank Việt Nam – chương trình truyền hình âm nhạc hàng tuần</b> được mong chờ nhất! Với bản quyền chính thức từ <b>KBS World</b>, chúng tôi mang đến một sân khấu đẳng cấp quốc tế, tái hiện trọn vẹn format đình đám của Music Bank Hàn Quốc, nhưng dành riêng để tôn vinh và bùng nổ cùng <b>nền âm nhạc Việt Nam</b>",
@@ -403,7 +404,7 @@ const translations = {
     "VK-MUSIC-title-25": "<b>Professional Entertainment Experience:</b> Immerse yourself in the atmosphere of a high-quality music show, where every element from sound and lighting to staging is meticulously invested.",
     "VK-MUSIC-title-26": "Music Bank Vietnam is not just an entertainment program; it's an important stage where V-Pop is honored and shines brightly every week.",
     "VK-MUSIC-title-27": "With these services, we aim to provide a perfect music experience, from connecting communities and accurate information updates to enjoying top-tier entertainment programs. Get ready to immerse yourself in the world of music we bring to you!",
-
+"MusicBank.services":"Music Bank Việt Nam",
     "MusicBank-title-h2": "Music Bank Vietnam: Vietnam's No.1 Music Chart Show",
     "MusicBank-title-h2-1": "Follow Music Bank Vietnam now",
     "MusicBank-title-1": "Later this year, get ready to embrace a new era for Vietnamese music with the launch of <b>Music Bank Vietnam</b> – the most anticipated <b>weekly music television show!</b> Officially licensed from <b>KBS World</b>, we're bringing an international-standard stage that fully recreates the renowned format of Music Bank Korea, but exclusively dedicated to honoring and exploding with the <b>Vietnamese music scene.</b>",
@@ -639,7 +640,7 @@ const translations = {
     "VK-MUSIC-title-25": "<b>전문적인 엔터테인먼트 경험:</b> 사운드, 조명, 무대 연출 등 모든 요소가 세심하게 투자된 고품질 음악 쇼의 분위기에 푹 빠져보세요.",
     "VK-MUSIC-title-26": "뮤직뱅크 베트남은 단순한 엔터테인먼트 프로그램이 아니라, V-Pop이 매주 빛나고 존중받는 중요한 무대입니다.",
     "VK-MUSIC-title-27": "이러한 서비스를 통해 우리는 커뮤니티 연결, 정확한 정보 업데이트부터 최고 수준의 엔터테인먼트 프로그램을 즐기는 것까지 완벽한 음악 경험을 제공하고자 합니다. 우리가 선사하는 음악의 세계에 푹 빠져들 준비를 하세요!",
-
+"MusicBank.services":"Music Bank Việt Nam",
     "MusicBank-title-h2": "뮤직뱅크 베트남: 베트남 최고의 음악 차트 프로그램",
     "MusicBank-title-h2-1": "뮤직뱅크 베트남: 베트남 최고의 음악 차트 프로그램",
     "MusicBank-title-1": "올해 말, 가장 기대되는 <b>주간 음악 TV 프로그램인 뮤직뱅크 베트남(Music Bank Vietnam)</b>의 출시와 함께 베트남 음악의 새로운 시대를 맞이할 준비를 하세요! KBS로부터 공식 라이선스를 획득하여, 우리는 한국 뮤직뱅크의 유명한 포맷을 완전히 재현하면서도 <b>베트남 음악</b>을 기리고 폭발시키기 위해 특별히 마련된 국제적인 수준의 무대를 선보일 것입니다.",
