@@ -490,7 +490,7 @@ const translations = {
     "history-list-23": "<D'festa> 전시회는 한국 최대 규모의 K-POP 아티스트 전시회로, VK 엔터테인먼트가 주최하여 2023년 10월 14일부터 11월 30일까지 하노이 타임즈 시티 쇼핑센터에서 베트남 최초로 개최되었습니다.",
     "history-list-25": "2025년, VK 엔터테인먼트는 KBS 뮤직뱅크 프로그램의 판권을 베트남으로 도입하였습니다. 이를 통해 V-POP 아티스트들에게 재능을 선보일 기회를 제공하고, 베트남 음악의 가치를 높이고 발전시키는 데 기여하였습니다.",
     "stats-meta": "디지털 광고",
-    "stats-ip": "소유 IP: Music, Game, Webtoon, etc",
+    "stats-ip": "Ownership IP: Music, Game, Webtoon, etc",
     "stats-Traffic": "월간 트래픽",
     "services-title": "Services",
     "services-title-1": "저희의 서비스",
@@ -724,5 +724,27 @@ window.onload = () => {
     const key = el.getAttribute('data-i18n');
     el.innerHTML = translations[savedLang][key] || key;
   });
+
+   localStorage.setItem('lang', lang); // Lưu lựa chọn
+    const currentUrl = window.location.href;
+    const newUrl = currentUrl.replace(/starter-page-(vi|en|ko)\.html/, `starter-page-${lang}.html`);
+    
+    // Nếu đã ở đúng trang thì không chuyển nữa
+    if (currentUrl !== newUrl) {
+      window.location.href = newUrl;
+    }
+  }
+
+  // Khi trang tải xong
+  window.onload = () => {
+    const savedLang = localStorage.getItem('lang') || 'vi';
+    const match = window.location.pathname.match(/starter-page-(vi|en|ko)\.html/);
+    const currentLang = match ? match[1] : 'vi';
+
+    // Nếu ngôn ngữ lưu khác với ngôn ngữ trang đang mở → chuyển về đúng trang
+    if (savedLang !== currentLang) {
+      const correctedUrl = window.location.href.replace(/starter-page-(vi|en|ko)\.html/, `starter-page-${savedLang}.html`);
+      window.location.href = correctedUrl;
+    }
 };
 
