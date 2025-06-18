@@ -25,7 +25,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -39,9 +39,7 @@
   ======================================================== -->
 </head>
 
-<body class="service-details-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
+<header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <!-- 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
@@ -56,9 +54,9 @@
         <ul>
           <li><a href="index.html"  data-i18n="nav.hero">Trang Chủ</a></li>
           <li><a href="index.html#about" data-i18n="nav.about">Về Chúng Tôi</a></li>
-          <li><a href="index.html#services" data-i18n="nav.services" class="active">Dịch VỤ</a></li>
+          <li><a href="index.html#services" data-i18n="nav.services">Dịch VỤ</a></li>
           <li><a href="index.html#features" data-i18n="nav.features">Công Nghệ</a></li>
-          <li><a href="index.html#portfolio" data-i18n="nav.portfolio" >Dự Án</a></li>
+          <li><a href="index.html#portfolio" data-i18n="nav.portfolio" class="active">Dự Án</a></li>
           <li><a href="index.html#team" data-i18n="nav.team">Đối Tác</a></li>
           <li><a href="index.html#contact" data-i18n="nav.contact">Liên Hệ</a></li>
           <li>
@@ -81,121 +79,103 @@
   </header>
 
 
-  <main class="main">
+<main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade"
-      style="background-image: url(assets/img/MUSIC-\(1\).png);">
-      <div class="container position-relative">
-        <h1 >VEVE</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">VK ENTERTAINMENT</a></li>
-            <li class="current">MUSIC</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
+  <!-- Page Title -->
+  <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
+    <div class="container position-relative">
+      <h1>Dự án</h1>
+      <!-- <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p> -->
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li class="current">Dự án</li>
+        </ol>
+      </nav>
+    </div>
+  </div><!-- End Page Title -->
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+  <!-- Portfolio Details Section -->
+  <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-delay="100" style="height: 80%;">
 
-        <div class="row gy-4">
+      <div class="row gy-4">
 
-        <div class="col-lg-4 scroll-list" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list  ">
-              <a href="service-details.html">VEVE</a>
-              <a href="service-details-music-bank.html">Music Bank Việt Nam</a>
-              <a href="service-details-vk-music.html">VK Music</a>              
+        <div class="col-lg-8">
+          <div class="portfolio-details-slider swiper init-swiper">
+
+            <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+            <div class="swiper-wrapper align-items-center">
+
+              <div class="swiper-slide">
+                <img src="assets/img/a1.png" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/a2.jpg" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/a3.jpg" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="assets/img/a4.jpg" alt="">
+              </div>
+
             </div>
+            <div class="swiper-pagination"></div>
           </div>
+        </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-
-            <h2 data-i18n="veve-service">VEVE: Đánh dấu khoảnh khắc, kết nối thần tượng</h2>
-            <p data-i18n="veve-title-1">
-              <b>VEVE</b> – dịch vụ âm nhạc số, nơi hội tụ đam mê và kết nối cộng đồng. VEVE là sản phẩm tâm huyết từ sự
-              hợp tác chiến lược giữa<b>VK Entertainment JSC</b> và <b>Hanteo Global</b>, công ty hàng đầu thế giới về bảng xếp hạng
-              âm nhạc. Chúng tôi tự hào mang đến một hệ sinh thái giải trí toàn diện, được thiết kế đặc biệt để đáp ứng
-              mọi nhu cầu của những người yêu âm nhạc, đặc biệt là cộng đồng K-Pop và V-Pop.
-            </p>
-            <p data-i18n="veve-title-2">
-
-              <b>VEVE dự kiến ra mắt vào tháng 9 năm 2025</b> trên cả ứng dụng di động và nền tảng website, hứa hẹn thay
-              đổi cách bạn trải nghiệm âm nhạc.
-
-            </p>
-            <img src="assets/img/ticketing.jpg" alt="" class="img-fluid services-img">
-            <h3 data-i18n="veve-title-h3">Sứ mệnh của chúng tôi</h3>
-            <p data-i18n="veve-title-3">
-              Tại VEVE, sứ mệnh của chúng tôi là tạo ra một không gian âm nhạc đa chiều, nơi người dùng không chỉ được
-              thưởng thức những giai điệu yêu thích mà còn được kết nối, chia sẻ và tương tác trực tiếp với thế giới âm
-              nhạc. Chúng tôi cam kết mang đến sự minh bạch, chất lượng và trải nghiệm vượt trội cho mọi người dùng.
-            </p>
-            <h2 data-i18n="veve-title-h2">Những tính năng nổi bật của VEVE </h2>
+        <div class="col-lg-4">
+          <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+            <h3 data-i18n="2014-title-h3">HEC KOREA FESTIVAL 2014</h3>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-4"><b>Bảng xếp hạng âm nhạc chuẩn quốc tế:</b> Với sự hợp tác
-                  cùng Hanteo Global, VEVE cung cấp các bảng xếp hạng âm nhạc chuyên nghiệp, chính xác và cập nhật liên
-                  tục, giúp bạn dễ dàng theo dõi thành tích của nghệ sĩ yêu thích.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-5"><b>Cộng đồng fan sôi động:</b> VEVE là ngôi nhà chung cho các
-                  fan hâm mộ. Tại đây, bạn có thể tham gia vào các nhóm, diễn đàn, thảo luận, chia sẻ thông tin và kết
-                  nối với những người cùng đam mê</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-6"><b>Kênh bán vé sự kiện độc quyền:</b> Dễ dàng mua vé các sự
-                  kiện âm nhạc, concert K-Pop và V-Pop lớn nhỏ ngay trên nền tảng của chúng tôi, đảm bảo bạn không bỏ lỡ
-                  bất kỳ buổi biểu diễn nào.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-7"><b>Hệ thống bình chọn (voting) minh bạch:</b> Trực tiếp đóng
-                  góp vào thành công của thần tượng bằng cách bình chọn một cách công bằng và minh bạch trong các sự
-                  kiện âm nhạc quan trọng.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-8"><b>Mua sắm sản phẩm (Goods):</b> Người dùng có thể mua hàng
-                  hóa nghệ sĩ chính thức thông qua kênh bán hàng tích hợp trong ứng dụng</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-9"><b>Truy cập nội dung âm nhạc:</b> VeVe liên kết với các nền
-                  tảng nhạc số để dẫn người dùng đến bài hát, MV, nội dung có bản quyền.</span></li>
-            </ul>
-
-            <h2 data-i18n="veve-title-h2-1">Cam kết của chúng tôi</h2>
-            <p data-i18n="veve-title-10">
-              VEVE được xây dựng dựa trên sự thấu hiểu sâu sắc về nhu cầu của cộng đồng yêu nhạc. Chúng tôi không ngừng
-              cải tiến và phát triển để mang đến một nền tảng ổn định, an toàn và thân thiện với người dùng. Với sự kết
-              hợp giữa kinh nghiệm của VK Entertainment và uy tín toàn cầu của Hanteo Global, chúng tôi tự tin VEVE sẽ
-              trở thành điểm đến âm nhạc không thể thiếu của bạn.
-            </p>
-            <p data-i18n="veve-title-11">
-              Hãy cùng chúng tôi viết nên những câu chuyện âm nhạc mới. <b>VEVE – Nơi âm nhạc cất cánh!</b>
-            </p>
-            <h2 data-i18n="veve-title-h2-2">Kết nối với VEVE </h2>
-
-            <p data-i18n="veve-title-12">
-              Bạn đã sẵn sàng cùng VEVE khám phá thế giới âm nhạc? Hãy theo dõi chúng tôi để không bỏ lỡ những thông tin
-              cập nhật mới nhất, các sự kiện độc quyền và nhiều điều bất ngờ khác!
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-13"><b>Website chính thức:</b>[Link website chính thức của VEVE]
-                  (Sẽ cập nhật khi ra mắt)</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="veve-title-14"><b>Tải ứng dụng VEVE:</b> Sắp có mặt trên [Google Play] và
-                  [App Store] vào tháng 9/2025</span></li>
-              <strong data-i18n="veve-title-15">Theo dõi chúng tôi trên mạng xã hội:</strong>
-              <ul style="padding-left:45px;">
-                <li><i class="bi bi-check2"></i> <span data-i18n="veve-title-16"><b>Facebook:</b> [Link Facebook của VEVE]</span></li>
-                <li><i class="bi bi-check2"></i> <span data-i18n="veve-title-17"><b>Instagram:</b> [Link Instagram của VEVE]</span></li>
-                <li><i class="bi bi-check2"></i> <span data-i18n="veve-title-18"><b>X:</b>[Link X của VEVE]</span></li>
-                <li><i class="bi bi-check2"></i> <span data-i18n="veve-title-19"><b>YouTube:</b>[Link YouTube của VEVE]</span></li>
-              </ul>
-              </span></li>
-
+              <li data-i18n="2014-title-1"><strong>Tên sự kiện</strong>: : 2014 Korea HEC Festival in Vietnam</li>
+              <li data-i18n="2014-title-2"><strong>Địa điểm tổ chức</strong>: Sân vận động Quân khu 7, TP.HCM</li>
+              <li data-i18n="2014-title-3"><strong>Danh sách nghệ sĩ</strong>: SISTAR, SNSD, 2PM, MISS A THE GATE</li>
+              <li data-i18n="2014-title-4"><strong>Ngày tổ chức</strong>: 22/03/2014</li>
             </ul>
           </div>
-
+          <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+            <h2 data-i18n="Project-title-h2">Thông tin sự kiện</h2>
+            <p data-i18n="2014-title-5">
+              HEC Korea Festival (Human Equilibrium Culture Korea Festival) là chương trình biểu diễn âm nhạc vòng quanh
+              10 quốc gia Trung Quốc, Việt Nam. Singapore, Mông Có. Úc, Mỹ,.., với tầm cỡ quốc tế do Bộ Văn hóa Thông
+              tin Hàn Quốc và Đài truyền hình Hàn Quốc MBC tổ chức kết hợp với mỗi quốc gia mà chương trình đi qua, nhằm
+              quảng bá văn hóa Hàn Quốc thông qua làn sóng Kpop. Đạo diễn chương trình là Choi Hyung Yun, một tên tuổi
+              trong lĩnh vực âm nhạc giải trí xứ Hàn.
+              VK Entertainment là đơn vị đại diện đồng tổ chức và đưa HEC Korea về Việt Nam
+            </p>
+          </div>
         </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
+    </div>
 
-  </main>
+  </section><!-- /Portfolio Details Section -->
 
-  <footer id="footer" class="footer dark-background">
+</main>
+
+ <footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
       <div class="row gy-4">
@@ -266,28 +246,26 @@
     </div>
 
   </footer>
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+<!-- Preloader -->
+<div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/lang.js"></script>
-
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/lang.js"></script>
 </body>
 
 </html>
