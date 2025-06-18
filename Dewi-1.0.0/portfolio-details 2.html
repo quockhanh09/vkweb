@@ -15,9 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,9 +37,9 @@
   ======================================================== -->
 </head>
 
-<body class="service-details-page">
+<body class="portfolio-details-page">
 
-   <header id="header" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <!-- 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
@@ -56,9 +54,9 @@
         <ul>
           <li><a href="index.html"  data-i18n="nav.hero">Trang Chủ</a></li>
           <li><a href="index.html#about" data-i18n="nav.about">Về Chúng Tôi</a></li>
-          <li><a href="index.html#services" data-i18n="nav.services" class="active">Dịch VỤ</a></li>
+          <li><a href="index.html#services" data-i18n="nav.services">Dịch VỤ</a></li>
           <li><a href="index.html#features" data-i18n="nav.features">Công Nghệ</a></li>
-          <li><a href="index.html#portfolio" data-i18n="nav.portfolio" >Dự Án</a></li>
+          <li><a href="index.html#portfolio" data-i18n="nav.portfolio" class="active">Dự Án</a></li>
           <li><a href="index.html#team" data-i18n="nav.team">Đối Tác</a></li>
           <li><a href="index.html#contact" data-i18n="nav.contact">Liên Hệ</a></li>
           <li>
@@ -80,85 +78,99 @@
     </div>
   </header>
 
+
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade"
-      style="background-image: url(assets/img/GAME\ \(1\).png);">
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
-        <h1>GAME</h1>
+        <h1>Dự án</h1>
+        <!-- <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p> -->
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">VK ENTERTAINMENT</a></li>
-            <li class="current">Game</li>
+            <li class="current">Dự án</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 scroll-list" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="service-details5.html" class="active">Vệ thần - The Guardians</a>
-              <a href="service-details6.html">Zero Break</a>
-            
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/a5.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/a5.webp" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/a6.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/a7.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
             </div>
-
-
           </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-
-            <h2 data-i18n="game-title-h2">VK Game: Thế giới giải trí đa sắc màu</h2>
-            <p data-i18n="game-title-1">
-              Bạn đã sẵn sàng bước vào những cuộc phiêu lưu không giới hạn?<b>VK Entertainment </b> tự hào giới thiệu dịch vụ
-              game của chúng tôi, hứa hẹn mang đến một thế giới giải trí đa dạng, từ những trận chiến hoành tráng đến
-              những phút giây thư giãn nhẹ nhàng. Dự kiến ra mắt vào <b>cuối năm nay</b>,VK Game sẽ là điểm đến không thể bỏ
-              qua cho mọi game thủ. </p>
-            <p data-i18n="game-title-2">
-              Chúng tôi sẽ mang đến hai tựa game bom tấn, được đầu tư kỹ lưỡng về đồ họa, cốt truyện và lối chơi, cùng
-              với kho tàng game casual phong phú để bạn thoải mái lựa chọn: </p>
-            <img src="assets/img/GAME (1).png" alt="" class="img-fluid services-img">
-            <h3 data-i18n="game-title-h3">Bom tấn đỉnh cao</h3>
-            <ul class="custom-list">
-              <li><i class="bi bi-check-circle"></i> 
-                <span data-i18n="game-title-3"><b>THE GUARDIANS (Vệ Thần):</b> Đắm chìm vào một thế giới giả
-                  tưởng hùng vĩ, nơi bạn sẽ hóa thân thành những Vệ Thần mạnh mẽ, gánh vác sứ mệnh bảo vệ vương quốc
-                  khỏi thế lực hắc ám. Với đồ họa choáng ngợp, hệ thống nhân vật đa dạng và những trận chiến kịch tính,
-                  "The Guardians" sẽ thử thách kỹ năng và chiến thuật của bạn đến cùng.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="game-title-4"><b>ZERO BREAK:</b> Sẵn sàng cho những pha hành động nghẹt thở
-                  và những thử thách đầy tốc độ? "Zero Break" sẽ đưa bạn vào một thế giới tương lai, nơi bạn phải vượt
-                  qua mọi giới hạn để sống sót và giành chiến thắng. Đây là tựa game đòi hỏi sự phản xạ nhanh nhạy và
-                  khả năng tư duy chiến lược, hứa hẹn mang lại những trải nghiệm căng thẳng và mãn nhãn.</span></li>
-            </ul>
-            <h3 data-i18n="game-title-h3-1">Trò chơi Casual thư giãn</h3>
-            <p data-i18n="game-title-5">
-              Bên cạnh hai siêu phẩm "The Guardians" và "Zero Break", VK Entertainment còn mang đến hơn<b>28 trò chơi
-              casual</b>  đa dạng thể loại. Từ những trò giải đố nhẹ nhàng, game thẻ bài chiến thuật, đến các tựa game mô
-              phỏng hấp dẫn, bạn có thể dễ dàng tìm thấy trò chơi phù hợp để thư giãn sau những giờ làm việc, học tập
-              căng thẳng hoặc đơn giản là giải trí nhanh gọn mọi lúc mọi nơi.
-              Với mục tiêu mang đến những trải nghiệm chất lượng cao và đa dạng cho người chơi, VK Entertainment đã và
-              đang làm việc không ngừng nghỉ để hoàn thiện từng chi tiết của các sản phẩm game. Hãy cùng chờ đón và khám
-              phá thế giới giải trí đầy màu sắc mà VK Game sẽ mang lại vào cuối năm nay nhé!
-            </p>
-
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3 data-i18n="2015-title-h3">MUSIC BANK IN HANOI 2015</h3>
+              <ul>
+                <li data-i18n="2015-title-1"><strong>Tên sự kiện</strong>: MUSIC BANK IN HANOI 2015</li>
+                <li data-i18n="2015-title-2"><strong>Địa điểm tổ chức</strong>: Sân vận động Mỹ Đình, Hà Nội</li>
+                <li data-i18n="2015-title-3"><strong>Danh sách nghệ sĩ</strong>: EXO, SHINEE SISTAR BLOCK B. GOT7, APINK TEEN TOP</li>
+                <li data-i18n="2015-title-4"><strong>Ngày tổ chức</strong>: 28/03/2015</li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2 data-i18n="Project-title-h2">Thông tin sự kiện</h2>
+              <p data-i18n="2015-title-5">
+                Music Bank World Tour la tour lưu diễn thế giới năm trong khuôn khổ chương trình Music Bank của đài truyền hình KBS Chương trình đã đi qua nhiều nước trên thế giới, mang đến những sân khấu hoành tráng cùng những màn trình diễn được đầu tư công phu của các nghệ sĩ hàng đầu Kpop. Việt Nam cũng là một điểm dừng chân của Music Bank, dem đến một đại nhạc hội hoành tráng không thể bỏ qua đối với cộng đồng yêu Kpop tại Việt Nam.
+              </p>
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
-    <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
       <div class="row gy-4">
@@ -231,8 +243,7 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -250,7 +261,6 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/lang.js"></script>
-
 </body>
 
 </html>
