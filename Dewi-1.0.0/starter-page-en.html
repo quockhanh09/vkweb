@@ -1275,16 +1275,21 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/lang.js"></script> 
    <script>
-  window.onload = () => {
-    const savedLang = localStorage.getItem('lang') || 'vi';
-    const currentLang = window.location.pathname.match(/starter-page-(vi|en|ko)\.html/)[1];
+ document.addEventListener('DOMContentLoaded', () => {
+  const savedLang = localStorage.getItem('lang') || 'vi';
+  const currentLangMatch = window.location.pathname.match(/starter-page-(vi|en|ko)\.html/);
+  
+  if (currentLangMatch) {
+    const currentLang = currentLangMatch[1];
 
     if (savedLang !== currentLang) {
-      // Nếu ngôn ngữ lưu khác với trang hiện tại, chuyển sang trang đúng
       const newUrl = window.location.href.replace(/starter-page-(vi|en|ko)\.html/, `starter-page-${savedLang}.html`);
-      window.location.href = newUrl;
+      if (window.location.href !== newUrl) {
+        window.location.href = newUrl;
+      }
     }
-  };
+  }
+});
 </script>
 
 
