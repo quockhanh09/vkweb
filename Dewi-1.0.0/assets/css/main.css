@@ -115,7 +115,9 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
-
+span{
+  text-align: justify;
+}
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -2237,7 +2239,7 @@ transform: translate(-150% ,200px);
   border-radius: 0;
   color: var(--default-color);
   background-color: var(--surface-color);
-  border-color: color-mix(in srgb, var(--default-color), transparent 20%);
+  border-color: color-mix(in srgb, var(--default-color), transparent 60%);
 }
 
 .contact .php-email-form input[type=text]:focus,
@@ -2807,5 +2809,5 @@ p{
 }
 
 .stats-ip{
-  text-align:center;
+  text-align:start;
 }
