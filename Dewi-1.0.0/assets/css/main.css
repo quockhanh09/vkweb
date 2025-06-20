@@ -1174,7 +1174,8 @@ color: var(--heading-color);
 @media (max-width: 768px) {
   .stats {
     padding: 0 15px; /* Căn lề vào 2 bên */
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   .stats-item {
@@ -2117,6 +2118,7 @@ transform: translate(-150% ,200px);
   .container{
     padding-left: 15px;
     padding-right: 15px;
+  
   }
   .team .member .pic {
     position: relative; 
@@ -2239,7 +2241,7 @@ transform: translate(-150% ,200px);
   border-radius: 0;
   color: var(--default-color);
   background-color: var(--surface-color);
-  border-color: color-mix(in srgb, var(--default-color), transparent 60%);
+  border-color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
 .contact .php-email-form input[type=text]:focus,
@@ -2251,7 +2253,7 @@ transform: translate(-150% ,200px);
 .contact .php-email-form input[type=text]::placeholder,
 .contact .php-email-form input[type=email]::placeholder,
 .contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
 .contact .php-email-form button[type=submit] {
@@ -2811,3 +2813,4 @@ p{
 .stats-ip{
   text-align:start;
 }
+
