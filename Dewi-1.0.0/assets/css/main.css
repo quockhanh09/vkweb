@@ -2313,9 +2313,9 @@ transform: translate(-150% ,200px);
 .portfolio-info {
   background-color: #fff;
   padding: 24px;
-  border-radius: 12px;
+  
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
-  margin-bottom: 20px;
+  
 }
 
 .portfolio-info h3 {
