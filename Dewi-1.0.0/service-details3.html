@@ -15,9 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,9 +37,9 @@
   ======================================================== -->
 </head>
 
-<body class="service-details-page">
+<body class="portfolio-details-page">
 
-   <header id="header" class="header d-flex align-items-center fixed-top">
+  <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
       <!-- 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
@@ -56,9 +54,9 @@
         <ul>
           <li><a href="index.html"  data-i18n="nav.hero">Trang Chủ</a></li>
           <li><a href="index.html#about" data-i18n="nav.about">Về Chúng Tôi</a></li>
-          <li><a href="index.html#services" data-i18n="nav.services" class="active">Dịch VỤ</a></li>
+          <li><a href="index.html#services" data-i18n="nav.services">Dịch VỤ</a></li>
           <li><a href="index.html#features" data-i18n="nav.features">Công Nghệ</a></li>
-          <li><a href="index.html#portfolio" data-i18n="nav.portfolio" >Dự Án</a></li>
+          <li><a href="index.html#portfolio" data-i18n="nav.portfolio" class="active">Dự Án</a></li>
           <li><a href="index.html#team" data-i18n="nav.team">Đối Tác</a></li>
           <li><a href="index.html#contact" data-i18n="nav.contact">Liên Hệ</a></li>
           <li>
@@ -79,87 +77,100 @@
       </nav>
     </div>
   </header>
+
+
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade"
-      style="background-image: url(assets/img/WEBTOON\ \(4\).png);">
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.webp);">
       <div class="container position-relative">
-        <h1>VK Webtoon</h1>
+        <h1 data-i18n="nav.portfolio">Dự án</h1>
+        <!-- <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p> -->
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">VK ENTERTAINMENT</a></li>
-            <li class="current">Webtoon</li>
+            <li class="current" data-i18n="nav.portfolio">Dự án</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 scroll-list" data-aos="fade-up" data-aos-delay="100">
-          
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-            <!-- <h4>"Hàn - Việt Harmony Fest 2025": Mở cổng bán vé, sẵn sàng cho đêm nhạc giao thoa văn hóa đỉnh cao!</h4>
-            <p>
-              Hà Nội, ngày 5 tháng 5 năm 2025 - Sự kiện âm nhạc được mong chờ nhất năm. "Hàn - Việt Harmony Fest 2025", chính thức công bố mờ cổng bán vé vào lúc 20:00 (giờ Việt Nam) ngày 12 tháng 5 năm 2025. Lễ hội âm nhạc đặc biệt này hứa hẹn mang đến một đêm hòa nhạc đỉnh cao, nơi âm nhạc và văn hóa của Hàn Quốc và Việt Nam thăng hoa với sự góp mặt của những nghệ sĩ hàng đầu từ cả hai quốc gia.
-            </p> -->
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/a5.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/a5.webp" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/a6.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/a7.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-
-            <h2 data-i18n="webtoon-title-h2">VK Webtoon: Thế giới truyện tranh kỹ thuật số</h2>
-            <p data-i18n="webtoon-title-1">
-              Bạn là một fan của những câu chuyện lôi cuốn, những nét vẽ sống động và thế giới đa sắc màu?
-              <b>VK Entertainment</b>  tự hào giới thiệu <b>VK Webtoon</b>, dịch vụ truyện tranh kỹ thuật số mới của chúng tôi, hứa hẹn
-              mang đến những trải nghiệm đọc truyện tuyệt vời nhất. Dự kiến ra mắt vào cuối năm nay, VK Webtoon sẽ là
-              cánh cửa mở ra thế giới webtoon Hàn Quốc bản quyền, nơi bạn có thể thưởng thức những tác phẩm nổi tiếng và
-              được yêu thích nhất.
-            </p>
-            <img src="assets/img/WEBTOON1.png" alt="" class="img-fluid services-img">
-            <h3 data-i18n="webtoon-title-h3">Kho tàng Webtoon Hàn Quốc Bản quyền</h3>
-            <p data-i18n="webtoon-title-2">
-              Với VK Webtoon, chúng tôi cam kết mang đến cho người đọc Việt Nam những tác phẩm chất lượng cao nhất. Ngay
-              trong giai đoạn đầu ra mắt, chúng tôi sẽ giới thiệu<b>từ 30 đến 50 tác phẩm webtoon bản quyền từ Hàn Quốc</b> .
-              Đây là những bộ truyện đã và đang làm mưa làm gió trên các nền tảng quốc tế, được đông đảo độc giả yêu
-              thích bởi cốt truyện hấp dẫn, nhân vật độc đáo và phong cách vẽ ấn tượng.
-            </p>
-            <strong data-i18n="webtoon-title-3">Bạn sẽ có cơ hội đắm chìm vào:</strong>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="webtoon-title-4"><b>Những câu chuyện tình yêu lãng mạn:</b>Từ những mối tình
-                  học đường trong sáng đến những câu chuyện tình yêu vượt mọi rào cản.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="webtoon-title-5"><b>Hành trình phiêu lưu kỳ ảo:</b>Khám phá những thế giới
-                  phép thuật, những cuộc chiến đấu cam go và những bí ẩn cần được vén màn.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="webtoon-title-6"><b>Những lát cắt cuộc sống chân thực</b>Đôi khi là những câu
-                  chuyện hài hước, cảm động về cuộc sống thường ngày.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-i18n="webtoon-title-7"><b>Các thể loại đa dạng khác:</b>Hành động, trinh thám, giả
-                  tưởng, BL, GL, v.v., đảm bảo đáp ứng mọi sở thích của bạn.</span></li>
-
-            </ul>
-            <p data-i18n="webtoon-title-8">
-              VK Webtoon không chỉ là nơi để bạn đọc truyện, mà còn là cầu nối để bạn tiếp cận với văn hóa và xu hướng
-              truyện tranh Hàn Quốc. Chúng tôi không ngừng nỗ lực để cập nhật những tác phẩm mới nhất, hot nhất, đảm bảo
-              bạn luôn là người đón đầu những trào lưu webtoon đỉnh cao.
-            </p>
-            <p data-i18n="webtoon-title-9">
-              Hãy cùng chờ đón<b>VK Webtoon</b>  ra mắt vào cuối năm nay để bắt đầu hành trình khám phá thế giới truyện tranh
-              kỹ thuật số đầy màu sắc và hấp dẫn</p>
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3 data-i18n="2015-title-h3">MUSIC BANK IN HANOI 2015</h3>
+              <ul>
+                <li data-i18n="2015-title-1"><strong>Tên sự kiện</strong>: MUSIC BANK IN HANOI 2015</li>
+                <li data-i18n="2015-title-2"><strong>Địa điểm tổ chức</strong>: Sân vận động Mỹ Đình, Hà Nội</li>
+                <li data-i18n="2015-title-3"><strong>Danh sách nghệ sĩ</strong>: EXO, SHINEE SISTAR BLOCK B. GOT7, APINK TEEN TOP</li>
+                <li data-i18n="2015-title-4"><strong>Ngày tổ chức</strong>: 28/03/2015</li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2 data-i18n="Project-title-h2">Thông tin sự kiện</h2>
+              <p data-i18n="2015-title-5">
+                Music Bank World Tour la tour lưu diễn thế giới năm trong khuôn khổ chương trình Music Bank của đài truyền hình KBS Chương trình đã đi qua nhiều nước trên thế giới, mang đến những sân khấu hoành tráng cùng những màn trình diễn được đầu tư công phu của các nghệ sĩ hàng đầu Kpop. Việt Nam cũng là một điểm dừng chân của Music Bank, dem đến một đại nhạc hội hoành tráng không thể bỏ qua đối với cộng đồng yêu Kpop tại Việt Nam.
+              </p>
+            </div>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
+    </section><!-- /Portfolio Details Section -->
 
   </main>
 
-   <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer dark-background">
 
     <div class="container footer-top">
       <div class="row gy-4">
@@ -232,8 +243,7 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
