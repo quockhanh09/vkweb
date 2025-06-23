@@ -787,6 +787,12 @@ span{
     transform: rotate(360deg);
   }
 }
+@media (max-width: 575px) {
+
+  .footer .copyright{
+    padding: 25px 15px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Scroll Top Button
@@ -1445,7 +1451,7 @@ a.nav-link.active .icon-img {
   }
 
   .features .nav-link i {
-    font-size: 32px;
+    font-size: 50px;
     padding-right: 10px;
   }
 
@@ -1468,6 +1474,11 @@ a.nav-link.active .icon-img {
   .features .tab-pane p {
     font-size: 13px;
   }
+   .icon-img {
+    width: 60px;
+    height: 60px;
+    
+}
 }
 
 @media (max-width: 575px) {
@@ -1484,10 +1495,11 @@ a.nav-link.active .icon-img {
   .features .nav-link {
     padding: 10px;
     font-size: 13px;
+    height: 80%;
   }
 
   .features .nav-link i {
-    font-size: 24px;
+    font-size: 50px;
     padding: 8px;
   }
 
@@ -1510,6 +1522,12 @@ a.nav-link.active .icon-img {
   .features .tab-pane p {
     font-size: 13px;
   }
+
+  .icon-img {
+    width: 60px;
+    height: 60px;
+    
+}
 }
 
 
@@ -2143,6 +2161,7 @@ transform: translate(-150% ,200px);
 
   .team .member span {
     font-size: 12px;
+      padding-bottom: 15px;
   }
 
   .team .member .social a {
@@ -2167,6 +2186,7 @@ transform: translate(-150% ,200px);
 
   .team .member span {
     font-size: 11px;
+            padding-bottom: 15px;
   }
 
   .team .member .social a {
@@ -2229,6 +2249,13 @@ transform: translate(-150% ,200px);
 @media (max-width: 575px) {
   .contact .php-email-form {
     padding: 20px;
+  }
+
+  
+.contact .info-item p{
+    padding-left: 20px;
+    padding-right:20px ;
+    text-align: justify;
   }
 }
 
@@ -2645,6 +2672,46 @@ transform: translate(-150% ,200px);
     background: #f1f1f1;
   }
 
+
+  @media (max-width: 1024px) {
+  .sm-columns {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 60px 30px;
+  }
+
+  
+.sm-columns .column:last-child{
+  margin-bottom: -170px;
+}
+
+  .sm-columns .column:first-child h1 {
+    font-size: 60px;
+    transform: translate(-20px, -50px);
+  }
+
+  .sm-columns .column:last-child .content-wrapper {
+    max-width: 80%;
+    transform: translate(0, -220px);
+
+  }
+
+  .sm-columns .column:last-child h4 {
+    
+    font-weight:600;
+   
+}
+  .sm-columns .column:nth-child(2)::before {
+    transform: translate(-393px, -120px);
+  }
+  
+
+  .history-list::before {
+    transform: translateX(-350px);
+    
+  }
+}
+
 @media (max-width: 768px) {
 
   .sm-columns {
@@ -2665,9 +2732,10 @@ transform: translate(-150% ,200px);
   }
 
   .sm-columns .column:first-child h1 {
-    font-size: 60px;
+    font-size: 30px;
     transform: none;
     margin-bottom: 10px;
+    transform: translate(-35px, -40px);
   }
 
   .sm-columns .column:nth-child(2)::before {
@@ -2686,7 +2754,7 @@ transform: translate(-150% ,200px);
     text-align: left;
     align-items: flex-start;
     padding-left: 36px;
-    margin-bottom: 40px;
+    margin-bottom: -90px;
   }
 
   .sm-columns .column:last-child h4 {
@@ -2699,12 +2767,14 @@ transform: translate(-150% ,200px);
   }
 
   .sm-columns .column:last-child .content-wrapper {
-    max-width: 100%;
-    padding-left: 10px;
+    max-width: 27%;
+    transform: translate(10px, -130px);
+    
   }
 
   .history-list::before {
     left: 24px;
+    all:unset
   }
 }
 
