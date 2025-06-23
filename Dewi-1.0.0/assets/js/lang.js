@@ -1424,17 +1424,22 @@ window.onload = () => {
 
 
 function updatePlaceholders(lang) {
-      const t = translations[lang];
+  const t = translations[lang];
+  if (!t) return;
 
-      document.getElementById("name").placeholder = t.name;
-      document.getElementById("email").placeholder = t.email;
-      document.getElementById("subject").placeholder = t.subject;
-      document.getElementById("message").placeholder = t.message;
+  document.getElementById("name").placeholder = t.name;
+  document.getElementById("email").placeholder = t.email;
+  document.getElementById("subject").placeholder = t.subject;
+  document.getElementById("message").placeholder = t.message;
 
-      // Cập nhật phần tử có data-i18n
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        el.innerText = t[key] || key;
-      });
-    }
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    el.textContent = t[key] || key;
+  });
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  const lang = localStorage.getItem('lang') || 'vi';
+  updatePlaceholders(lang);
+});
 
