@@ -237,8 +237,9 @@ const translations = {
     email: "Email của bạn",
     subject: "Tiêu đề",
     message: "Nội dung",
+    submit: "Đăng Ký",
     "csbv-title":"CHÍNH SÁCH BẢO VỆ DỮ LIỆU CÁ NHÂN",
-    "csbv-title-p":"Chính sách bảo vệ dữ liệu cá nhân này mô tả cách thức thu thập, sử dụng và xử lý dữ liệu cá nhân phát sinh trong quá trình hoạt động, kinh doanh của Công ty Cổ phần VK Entertainment (sau đây gọi là “Công Ty”) có trang thông tin điện tử chính thức là https://www.vkentertainment.net/",
+    "csbv-title-p":"Chính sách bảo vệ dữ liệu cá nhân này mô tả cách thức thu thập, sử dụng và xử lý dữ liệu cá nhân phát sinh trong quá trình hoạt động, kinh doanh của Công ty Cổ phần VK Entertainment",
     "cs-title-h1": "Chính sách bảo vệ dữ liệu cá nhân ",
 "cs-title-h2": "I. QUY ĐỊNH CHUNG",
 "cs-title-h3": "II. DỮ LIỆU CÁ NHÂN",
@@ -702,7 +703,7 @@ const translations = {
    
     
      "csbv-title":"PERSONAL DATA PROTECTION POLICY",
-    "csbv-title-p":"This personal data protection policy describes how personal data is collected, used, and processed during the operations and business activities of VK Entertainment Joint Stock Company (hereinafter referred to as the “Company”), whose official website is https://www.vkentertainment.net/.",
+    "csbv-title-p":"This personal data protection policy describes how personal data is collected, used, and processed during the operations and business activities of VK Entertainment Joint Stock Company",
   "cs-title-h1": "Personal Data Protection Policy",
   "cs-title-h2": "I.GENERAL PROVISIONS",
   "cs-title-h3": "II. PERSONAL DATA",
@@ -818,6 +819,7 @@ const translations = {
     email: "Your Email",
     subject: "Subject",
     message: "Message",
+    submit: "Register",
 
     "DKSD-title":"Terms of Use",
     "DK-title-h1": "TERMS OF SERVICE",
@@ -1170,10 +1172,12 @@ const translations = {
     email: "이메일",
     subject: "제목",
     message: "내용",
+    submit: "가입",
 
 
-  "csbv-title":"P개인정보 보호 정책",
-  "csbv-title-p":"이 개인정보 보호 정책은 주식회사 VK Entertainment(이하 '회사')의 운영 및 사업 과정에서 발생하는 개인정보의 수집, 이용 및 처리 방식에 대해 설명합니다. 회사의 공식 웹사이트는 https://www.vkentertainment.net/ 입니다.",
+  "csbv-title":"개인정보 보호 정책",
+  "csbv-title-p":"본 개인정보 보호정책은 (주)VK 엔터테인먼트의 운영 및 사업 활동 중에 발생하는 개인 데이터의 수집, 사용 및 처리에 대한 방법을 설명한다.",
+"cs-title-h1": "개인정보 보호 정책",
 "cs-title-h2": "I. 일반 규정",
 "cs-title-h3": "II. 개인정보",
 "cs-title-h4": "III. 개인정보 처리 방법",
@@ -1431,6 +1435,7 @@ function updatePlaceholders(lang) {
   document.getElementById("email").placeholder = t.email;
   document.getElementById("subject").placeholder = t.subject;
   document.getElementById("message").placeholder = t.message;
+  document.getElementById("submitBtn").value = translations[lang].submit;
 
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
