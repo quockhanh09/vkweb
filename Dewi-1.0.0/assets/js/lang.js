@@ -464,6 +464,8 @@ const translations = {
   "DK-title-89": "Điện thoại:",
   "DK-title-90": "Website:",
   "DK-title-91":" Toà nhà W1 Vinhomes West Point, Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam ",
+  "send-title":" GỬI",
+  
 
   },
 
@@ -932,6 +934,7 @@ const translations = {
   "DK-title-89": "Phone:",
   "DK-title-90": "Website:",
    "DK-title-91":" W1 Vinhomes West Point Building, Me Tri Ward, Nam Tu Liem District, Hanoi City, Vietnam ",
+   "send-title":"SEND",
   },
   ko: {
     "hero.title": "VK ENTERTAINMENT",
@@ -1401,6 +1404,7 @@ const translations = {
   "DK-title-89": "전화:",
   "DK-title-90": "웹사이트:",
   "DK-title-91":" W1 Vinhomes West Point Building, Me Tri Ward, Nam Tu Liem District, Hanoi City, Vietnam ",
+  "send-title":"보내기",
   
   }
 };
