@@ -28,6 +28,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
 
 
 
@@ -375,8 +376,8 @@
               <img src="assets/img/z3.jpg" alt="Icon"
                 style="width: 125px; height: 125px; margin-right: 20px;">
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="8000000" data-purecounter-duration="2"
-                  class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="8000000" data-purecounter-duration="1"
+                  class="purecounter"  data-purecounter-separators="true"></span>
                 <p data-i18n="stats-Traffic" class="stats-ip">Traffic hàng tháng</p>
               </div>
             </div>
@@ -1009,7 +1010,7 @@
                   data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
                   <h3 data-i18n="contact-address">Địa Chỉ</h3>
-                  <p>Vinhomes West Point, Đỗ Đức Dục, Mễ Trì, Nam Từ Liêm, Hà Nội, Việt Nam
+                  <p >Vinhomes West Point, Đỗ Đức Dục, Mễ Trì, Nam Từ Liêm, Hà Nội, Việt Nam
                   </p>
                 </div>
               </div><!-- End Info Item -->
@@ -1061,7 +1062,7 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit">GỬI</button>
+                  <button type="submit" data-i18n="send-title">GỬI</button>
                 </div>
 
               </div>
@@ -1124,7 +1125,7 @@
           <h4 data-i18n="footer-link-11">Đăng ký thành viên của VK Entertainment​</h4>
           <p data-i18n="footer-link-12">Đăng ký để trở thành thành viên!</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Đăng Ký "></div>
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" id="submitBtn" value="Đăng Ký "></div>
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Yêu Cầu của Bạn đã được gửi thành công!</div>
@@ -1185,7 +1186,15 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/lang.js"></script>
-
+  <script>
+      const interval = setInterval(() => {
+    const el = document.getElementById("counter");
+    const number = parseInt(el.innerText.replace(/\D/g, ''));
+    if (!isNaN(number)) {
+      el.innerText = number.toLocaleString('de-DE');
+    }
+  }, 50);
+  </script>
 
 </body>
 
