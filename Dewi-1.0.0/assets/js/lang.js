@@ -237,7 +237,8 @@ const translations = {
     email: "Email của bạn",
     subject: "Tiêu đề",
     message: "Nội dung",
-
+    "csbv-title":"CHÍNH SÁCH BẢO VỆ DỮ LIỆU CÁ NHÂN",
+    "csbv-title-p":"Chính sách bảo vệ dữ liệu cá nhân này mô tả cách thức thu thập, sử dụng và xử lý dữ liệu cá nhân phát sinh trong quá trình hoạt động, kinh doanh của Công ty Cổ phần VK Entertainment (sau đây gọi là “Công Ty”) có trang thông tin điện tử chính thức là https://www.vkentertainment.net/",
     "cs-title-h1": "Chính sách bảo vệ dữ liệu cá nhân ",
 "cs-title-h2": "I. QUY ĐỊNH CHUNG",
 "cs-title-h3": "II. DỮ LIỆU CÁ NHÂN",
@@ -351,6 +352,7 @@ const translations = {
   "cs-title-98": "<b>Điện thoại:</b> 0962 926 062",
   "cs-title-99": "<b>Website:</b> vkentertainment.net",
 
+  "DKSD-title":"ĐIỀU KHOẢN SỬ DỤNG",
   "DK-title-h1": "ĐIỀU KHOẢN SỬ DỤNG ",
   "DK-title-h2": "I. ĐỊNH NGHĨA",
   "DK-title-h3": "II. CHẤP NHẬN ĐIỀU KHOẢN",
@@ -699,7 +701,8 @@ const translations = {
     "2015-title-5":"Music Bank in Hanoi 2015 & Its Enduring Legacy<br> Music Bank in Hanoi 2015 was a pivotal event within the global tour of KBS's Music Bank, South Korea's longest-running televised music chart show. This iconic program has graced stages worldwide, delivering spectacular performances and meticulously produced showcases from the top K-Pop artists. Vietnam was a key stop on the Music Bank tour, presenting an unmissable and grand music festival for the passionate K-Pop community in the country.<br> The impact of Music Bank in Vietnam extends beyond that single touring night. Music Bank Vietnam is slated to officially launch for Vietnamese audiences in 2025, promising a sustained presence and further engagement with the local music scene.",
    
     
-
+     "csbv-title":"PERSONAL DATA PROTECTION POLICY",
+    "csbv-title-p":"This personal data protection policy describes how personal data is collected, used, and processed during the operations and business activities of VK Entertainment Joint Stock Company (hereinafter referred to as the “Company”), whose official website is https://www.vkentertainment.net/.",
   "cs-title-h1": "Personal Data Protection Policy",
   "cs-title-h2": "I.GENERAL PROVISIONS",
   "cs-title-h3": "II. PERSONAL DATA",
@@ -816,7 +819,7 @@ const translations = {
     subject: "Subject",
     message: "Message",
 
-
+    "DKSD-title":"Terms of Use",
     "DK-title-h1": "TERMS OF SERVICE",
   "DK-title-h2": "I. DEFINITIONS",
   "DK-title-h3": "II. ACCEPTANCE OF TERMS",
@@ -1167,7 +1170,10 @@ const translations = {
     email: "이메일",
     subject: "제목",
     message: "내용",
-"cs-title-h1": "개인정보 보호정책",
+
+
+  "csbv-title":"P개인정보 보호 정책",
+  "csbv-title-p":"이 개인정보 보호 정책은 주식회사 VK Entertainment(이하 '회사')의 운영 및 사업 과정에서 발생하는 개인정보의 수집, 이용 및 처리 방식에 대해 설명합니다. 회사의 공식 웹사이트는 https://www.vkentertainment.net/ 입니다.",
 "cs-title-h2": "I. 일반 규정",
 "cs-title-h3": "II. 개인정보",
 "cs-title-h4": "III. 개인정보 처리 방법",
@@ -1280,7 +1286,7 @@ const translations = {
   "cs-title-98": "<b>전화:</b> 0962 926 062",
   "cs-title-99": "<b>웹사이트:</b> vkentertainment.net",
 
-
+    "DKSD-title":"이용 약관",
   "DK-title-h1": "이용약관",
   "DK-title-h2": "I. 정의",
   "DK-title-h3": "II. 약관 동의",
