@@ -61,7 +61,11 @@
       margin-bottom: 0pt;
       font-size: 16px;
     }
-
+    p, span, div {
+  word-break: normal;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
     h1 {
       margin-top: 20pt;
       margin-bottom: 6pt;
@@ -212,11 +216,19 @@
       counter-increment: awlistcounter2_0
     }
 
+    .starter-section {
+      padding-left: 250px;
+padding-right: 250px;
+    }
+
     @media (max-width: 1200px) {
   body {
     font-size: 10pt;
   }
-
+.starter-section{
+      padding-right: 50px;
+    padding-left: 50px;
+}
   p {
     font-size: 16px;
   }
@@ -349,6 +361,97 @@
     font-size: 20pt;
   }
 }
+@media (max-width: 375px) {
+  body {
+    font-size: 7.5pt;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .p-cs {
+    font-size: 11.5px;
+  }
+
+  li {
+    font-size: 12.5px;
+  }
+
+  h1 {
+    font-size: 13pt;
+  }
+
+  h2 {
+    font-size: 12pt;
+  }
+
+  h3 {
+    font-size: 11pt;
+  }
+
+  h4 {
+    font-size: 9.5pt;
+  }
+
+  h5, h6 {
+    font-size: 8pt;
+  }
+
+  .Subtitle {
+    font-size: 11.5pt;
+  }
+
+  .Title {
+    font-size: 18pt;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    font-size: 7pt;
+  }
+
+  p {
+    font-size: 12.5px;
+  }
+
+  .p-cs {
+    font-size: 11px;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 12pt;
+  }
+
+  h2 {
+    font-size: 11pt;
+  }
+
+  h3 {
+    font-size: 10pt;
+  }
+
+  h4 {
+    font-size: 9pt;
+  }
+
+  h5, h6 {
+    font-size: 7.5pt;
+  }
+
+  .Subtitle {
+    font-size: 11pt;
+  }
+
+  .Title {
+    font-size: 17pt;
+  }
+}
 
   </style>
 </head>
@@ -413,7 +516,7 @@
 
     <!-- Starter Section Section -->
     <section id="starter-section" class="starter-section section"
-      style="padding-right: 250px; padding-left: 250px; text-align: justify; font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+      style=" text-align: justify; font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;">
 
       <!-- Section Title -->
        <div>
