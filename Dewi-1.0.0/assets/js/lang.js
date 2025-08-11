@@ -224,7 +224,7 @@ const translations = {
     "2012-title-2":"<b>Địa điểm tổ chức:</b> Sân vận động Mỹ Đình, Hà Nội",
     "2012-title-3":"<b>Danh sách nghệ sĩ:</b> Sân vận động Mỹ Đình, Hà Nội Danh sách nghệ sĩ GIRL'S GENERATION, SISTAR INFINITE TEEN TOP SON DAMBI, BAP, MISS A. KARA T-ARA TVXQ. Hyun-Ah. BEAST. CHAOS. FIESTAR, FT Island...",
     "2012-title-4":"<b>Ngày tổ chức: 29/11/2012</b>",
-    "2012-title-5":"Được sự ủng hộ của Bộ Ngoại giao, Bộ Văn hóa và Đại sử quân hai nước Việt Nam - Hàn Quốc, nhân kỷ niệm 20 năm thiết lập quan hệ ngoại giao Việt Nam - Hàn Quốc (12/1992-12/20121. Đài truyền hình MBC, công ty 9M Art Hàn Quốc cùng với VK Entertainment đã tổ chức đêm giao lưu âm nhạc trẻ Việt - Hàn mang tên K-pop Festival 2012-Concert in Vietnam tổ chức vào hồi 19h30' ngày 29 tháng 11 năm 2012 tại Sân vận động Quốc gia Mỹ Đình - Hà Nội, chương trình hiện đã được Bộ Văn hóa. Thể thao và Du lịch Việt Nam cấp phép Chương trình thực hiện bởi các nhà sản xuất chuyên nghiệp hàng đầu Hàn Quốc với kỹ thuật dàn dựng hiện đại nhất châu Á, cùng sự tham gia của các nhóm nhạc thần tượng nổi tiếng. K-pop Festival 2012-Concert in Vietnam đã mang tới những khoảnh khắc ấn tượng mới lạ và giàu sức hấp dẫn cho công chúng",
+    "2012-title-5":"Được sự ủng hộ của Bộ Ngoại giao, Bộ Văn hóa và Đại sử quân hai nước Việt Nam - Hàn Quốc, nhân kỷ niệm 20 năm thiết lập quan hệ ngoại giao Việt Nam - Hàn Quốc (12/1992-12/2012. Đài truyền hình MBC, công ty 9M Art Hàn Quốc cùng với VK Entertainment đã tổ chức đêm giao lưu âm nhạc trẻ Việt - Hàn mang tên K-pop Festival 2012-Concert in Vietnam tổ chức vào hồi 19h30' ngày 29 tháng 11 năm 2012 tại Sân vận động Quốc gia Mỹ Đình - Hà Nội, chương trình hiện đã được Bộ Văn hóa. Thể thao và Du lịch Việt Nam cấp phép Chương trình thực hiện bởi các nhà sản xuất chuyên nghiệp hàng đầu Hàn Quốc với kỹ thuật dàn dựng hiện đại nhất châu Á, cùng sự tham gia của các nhóm nhạc thần tượng nổi tiếng. K-pop Festival 2012-Concert in Vietnam đã mang tới những khoảnh khắc ấn tượng mới lạ và giàu sức hấp dẫn cho công chúng",
     /* MUSIC BANK IN HANOI 2015*/
     "2015-title-h3":"MUSIC BANK IN HANOI 2015",
     "2015-title-1":"<b>Tên sự kiện:</b> MUSIC BANK IN HANOI 2015",
@@ -1451,4 +1451,5 @@ window.addEventListener('DOMContentLoaded', () => {
   const lang = localStorage.getItem('lang') || 'vi';
   updatePlaceholders(lang);
 });
+
 
