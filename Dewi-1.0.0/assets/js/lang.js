@@ -117,7 +117,7 @@ const translations = {
     "GUARDIANS-title-10": "<b>Cung Thủ:</b> Bách phát bách trúng, thiện xạ từ xa, hạ gục kẻ địch một cách nhanh gọn.",
     "GUARDIANS-title-11": "Hãy cùng bạn bè khám phá thế giới châu Âu huyền bí, chiến đấu chống lại những quái vật ghê rợn, giải mã bí ẩn về sự biến mất của Valion và viết nên huyền thoại của riêng bạn trong <b>THE GUARDIANS!</b>",
     "GUARDIANS-title-12": "Bạn đã sẵn sàng trở thành một Vệ Thần huyền thoại và chiến đấu vì tương lai lục địa Triad? Hãy theo dõi chúng tôi để không bỏ lỡ những thông tin cập nhật mới nhất, các sự kiện đặc biệt và ngày ra mắt chính thức của THE GUARDIANS!",
-    "GUARDIANS-title-13": "<b>Website chính thức:</b> [Link website THE GUARDIANS] (Sẽ cập nhật khi ra mắt)",
+    "GUARDIANS-title-13": "<b>Website chính thức:   </b>",
     "GUARDIANS-title-14": "<b>Tải game:</b> Sắp có mặt trên các nền tảng vào cuối năm nay",
     // "GUARDIANS-title-15": "<b>Theo dõi chúng tôi trên mạng xã hội:</b>",
     "GUARDIANS-title-16": "<b>Facebook:</b> [Link Facebook THE GUARDIANS]",
@@ -131,7 +131,7 @@ const translations = {
     "Zero-title-3": "Tham gia vào các chế độ chơi đầy thử thách như 'Chaos: Death Match', nơi phản xạ và chiến thuật là chìa khóa để giành chiến thắng. Tích lũy kinh nghiệm, leo hạng trên bảng xếp hạng và khẳng định vị thế của mình trong cộng đồng.",
     "Zero-title-4": "Zero Fire không chỉ là một trò chơi, đó là một đấu trường để bạn chứng minh bản lĩnh. Hãy tải ngay và cùng đồng đội làm chủ mọi cuộc chiến!",
     "Zero-title-5": "Sẵn sàng gia nhập biệt đội tinh nhuệ và ghi dấu ấn trên bảng xếp hạng? Hãy theo dõi chúng tôi để không bỏ lỡ những thông tin cập nhật mới nhất, các sự kiện hấp dẫn và cơ hội nhận quà độc quyền từ Zero Fire!",
-    "Zero-title-6": "<b>Website chính thức:</b> [Link website Zero Fire] (Sẽ cập nhật khi ra mắt)",
+    "Zero-title-6": "<b>Website chính thức: </b> ",
     "Zero-title-7": "<b>Tải game:</b> Sẽ có mặt trên các nền tảng vào Tháng 10 năm nay",
     "Zero-title-8": "<b>Facebook:</b> [Link Facebook Zero Fire]",
     "Zero-title-9": "<b>YouTube:</b> [Link YouTube Zero Fire]",
@@ -224,7 +224,7 @@ const translations = {
     "2012-title-2":"<b>Địa điểm tổ chức:</b> Sân vận động Mỹ Đình, Hà Nội",
     "2012-title-3":"<b>Danh sách nghệ sĩ:</b> Sân vận động Mỹ Đình, Hà Nội Danh sách nghệ sĩ GIRL'S GENERATION, SISTAR INFINITE TEEN TOP SON DAMBI, BAP, MISS A. KARA T-ARA TVXQ. Hyun-Ah. BEAST. CHAOS. FIESTAR, FT Island...",
     "2012-title-4":"<b>Ngày tổ chức: 29/11/2012</b>",
-    "2012-title-5":"Được sự ủng hộ của Bộ Ngoại giao, Bộ Văn hóa và Đại sử quân hai nước Việt Nam - Hàn Quốc, nhân kỷ niệm 20 năm thiết lập quan hệ ngoại giao Việt Nam - Hàn Quốc (12/1992-12/2012. Đài truyền hình MBC, công ty 9M Art Hàn Quốc cùng với VK Entertainment đã tổ chức đêm giao lưu âm nhạc trẻ Việt - Hàn mang tên K-pop Festival 2012-Concert in Vietnam tổ chức vào hồi 19h30' ngày 29 tháng 11 năm 2012 tại Sân vận động Quốc gia Mỹ Đình - Hà Nội, chương trình hiện đã được Bộ Văn hóa. Thể thao và Du lịch Việt Nam cấp phép Chương trình thực hiện bởi các nhà sản xuất chuyên nghiệp hàng đầu Hàn Quốc với kỹ thuật dàn dựng hiện đại nhất châu Á, cùng sự tham gia của các nhóm nhạc thần tượng nổi tiếng. K-pop Festival 2012-Concert in Vietnam đã mang tới những khoảnh khắc ấn tượng mới lạ và giàu sức hấp dẫn cho công chúng",
+    "2012-title-5":"Được sự ủng hộ của Bộ Ngoại giao, Bộ Văn hóa và Đại sử quân hai nước Việt Nam - Hàn Quốc, nhân kỷ niệm 20 năm thiết lập quan hệ ngoại giao Việt Nam - Hàn Quốc (12/1992-12/20121. Đài truyền hình MBC, công ty 9M Art Hàn Quốc cùng với VK Entertainment đã tổ chức đêm giao lưu âm nhạc trẻ Việt - Hàn mang tên K-pop Festival 2012-Concert in Vietnam tổ chức vào hồi 19h30' ngày 29 tháng 11 năm 2012 tại Sân vận động Quốc gia Mỹ Đình - Hà Nội, chương trình hiện đã được Bộ Văn hóa. Thể thao và Du lịch Việt Nam cấp phép Chương trình thực hiện bởi các nhà sản xuất chuyên nghiệp hàng đầu Hàn Quốc với kỹ thuật dàn dựng hiện đại nhất châu Á, cùng sự tham gia của các nhóm nhạc thần tượng nổi tiếng. K-pop Festival 2012-Concert in Vietnam đã mang tới những khoảnh khắc ấn tượng mới lạ và giàu sức hấp dẫn cho công chúng",
     /* MUSIC BANK IN HANOI 2015*/
     "2015-title-h3":"MUSIC BANK IN HANOI 2015",
     "2015-title-1":"<b>Tên sự kiện:</b> MUSIC BANK IN HANOI 2015",
@@ -601,7 +601,7 @@ const translations = {
     "Zero-title-3": "Engage in challenging game modes like 'Chaos: Death Match,' where quick reflexes and tactical prowess are the keys to victory. Accumulate experience, climb the ranks on the leaderboards, and solidify your position within the community.",
     "Zero-title-4": "<b>Zero Fire</b> is more than just a game; it's an arena for you to prove your mettle. <b>Download now and dominate every battle with your squad!</b> ",
     "Zero-title-5": "Ready to join the elite squad and make your mark on the leaderboards? Follow us to stay updated on the latest news, exciting events, and opportunities to receive exclusive gifts from Zero Fire!",
-    "Zero-title-6": "<b>Official Website:</b> [Link website Zero Fire] (To be updated upon launch)",
+    "Zero-title-6": "<b>Official Website: </b> ",
     "Zero-title-7": "<b>Download the game:</b> Coming to platforms in October this year",
     "Zero-title-8": "<b>Facebook:</b> [Link Facebook Zero Fire]",
     "Zero-title-9": "<b>YouTube:</b> [Link YouTube Zero Fire]",
@@ -1070,7 +1070,7 @@ const translations = {
     "Zero-title-3": "반사 신경과 전술적 능력이 승리의 열쇠가 되는 '카오스: 데스 매치(Chaos: Death Match)'와 같은 도전적인 게임 모드에 참여하세요. 경험치를 쌓고 순위표를 올라 커뮤니티 내에서 당신의 위치를 확고히 하세요.",
     "Zero-title-4": "<b>Zero Fire는</b> 단순한 게임이 아닙니다. 그것은 당신의 용기를 증명할 수 있는 투기장입니다. <b>지금 바로 다운로드하고 당신의 팀과 함께 모든 전투를 지배하세요!</b>",
     "Zero-title-5": "정예 부대에 합류하여 순위표에 당신의 이름을 새길 준비가 되셨습니까? 최신 소식, 흥미로운 이벤트, 그리고 Zero Fire의 독점 선물을 받을 기회를 놓치지 않으려면 팔로우하세요!",
-    "Zero-title-6": "<b>공식 웹사이트:</b> [Zero Fire 웹사이트 링크] (출시 시 업데이트 예정)",
+    "Zero-title-6": "<b>공식 웹사이트: </b> ",
     "Zero-title-7": "<b>게임 다운로드:</b>올해 10월 플랫폼 출시 예정",
     "Zero-title-8": "<b>페이스북:</b> [Zero Fire 페이스북 링크]",
     "Zero-title-9": "<b>유튜브:</b> [Zero Fire 유튜브 링크]",
@@ -1451,5 +1451,4 @@ window.addEventListener('DOMContentLoaded', () => {
   const lang = localStorage.getItem('lang') || 'vi';
   updatePlaceholders(lang);
 });
-
 
