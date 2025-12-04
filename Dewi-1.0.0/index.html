@@ -838,8 +838,7 @@
           <button id="partner-next" class="btn btn-outline-secondary">Next →</button>
         </div> -->
         <div class="row gy-5" id="partner-slider">
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-2-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="pic"><img src="assets/img/hanteo.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
@@ -857,7 +856,7 @@
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-2-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <div class="pic"><img src="assets/img/vtv.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
@@ -875,7 +874,7 @@
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-2-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="pic"><img src="assets/img/naver.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
@@ -893,7 +892,7 @@
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-2-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="pic"><img src="assets/img/ERIC.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
@@ -912,14 +911,14 @@
           </div><!-- End Team Member -->
 
           
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-2-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="member">
-              <div class="pic"><img src="assets/img/hitgame.jpg" class="img-fluid" alt="" style="width: 303px; height: 303px; object-fit: cover;"></div>
+              <div class="pic"><img src="assets/img/hitgame.jpg" class="img-fluid" alt="" style="width: 276px; height: 236px;"></div>
               <div class="member-info">
                 <a href="">
                   <h4>HIT GAME</h4>
                 </a>
-                <span data-i18n="partner-describe-5">Đối tác phát triển game </span>
+                <span data-i18n="partner-describe-5">Đối tác phát triển game                         </span>
                 <div class="social">
                   <a><i class="bi bi-twitter-x"></i></a>
                   <a><i class="bi bi-facebook"></i></a>
@@ -931,6 +930,25 @@
           </div>
 
         </div>
+        <style>
+        /* Custom col for 5 columns on large screens */
+        @media (min-width: 992px) {
+          .col-lg-2-4 {
+            flex: 0 0 20%;
+            max-width: 20%;
+          }
+        }
+        /* Increase member-info width to fit partner description */
+        .team .member .member-info {
+          left: 10px;
+          right: 10px;
+          padding: 20px 10px;
+        }
+        .team .member span {
+          font-size: 13px;
+          line-height: 1.3;
+        }
+        </style>
 
       </div>
 
